@@ -4,10 +4,12 @@
     <list default="true" id="7f98c76d-f4dc-4993-aa53-87482c289f19" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/android.html" afterPath="$PROJECT_DIR$/android.html" />
-      <change beforePath="$PROJECT_DIR$/assets/images/androidthumnail.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/images/openhack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/introduction.html" afterPath="$PROJECT_DIR$/introduction.html" />
+      <change beforePath="$PROJECT_DIR$/assets/bootstrap/bootstrap.css" afterPath="$PROJECT_DIR$/assets/bootstrap/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/assets/images/award/award_1.jpg" afterPath="$PROJECT_DIR$/assets/images/award/award_1.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/images/award/award_2.jpg" afterPath="$PROJECT_DIR$/assets/images/award/award_2.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/images/award/award_4.jpg" afterPath="$PROJECT_DIR$/assets/images/award/award_4.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/images/award/award_5.jpg" afterPath="$PROJECT_DIR$/assets/images/award/award_5.jpg" />
+      <change beforePath="$PROJECT_DIR$/assets/images/award/award_6.jpg" afterPath="$PROJECT_DIR$/assets/images/award/award_6.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,70 +22,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="introduction.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/introduction.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="magnific-popup-options.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/magnific-popup-options.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.magnific-popup.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/instant/js/jquery.magnific-popup.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="3" column="1997" lean-forward="false" selection-start-line="3" selection-start-column="1997" selection-end-line="3" selection-end-column="1997" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="418" column="1" lean-forward="false" selection-start-line="418" selection-start-column="1" selection-end-line="418" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="android.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="220" column="71" lean-forward="true" selection-start-line="209" selection-start-column="12" selection-end-line="220" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="677">
-              <caret line="567" column="0" lean-forward="true" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="introduction.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/introduction.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="magnific-popup-options.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/js/magnific-popup-options.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="android.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/android.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="494">
+                  <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="801" column="29" lean-forward="true" selection-start-line="801" selection-start-column="29" selection-end-line="801" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -98,6 +106,9 @@
       <find>img-f</find>
       <find>pb_hover</find>
       <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n\	\&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n\	\&lt;meta name\=\&quot;viewport\&quot; content\=\&quot;width\=device\-width\, initial\-scale\=1\.0\&quot;\&gt;\n\	\&lt;meta name\=\&quot;description\&quot; content\=\&quot;\&quot;\&gt;\n\	\&lt;meta name\=\&quot;author\&quot; content\=\&quot;\&quot;\&gt;\n\n\	\&lt;title\&gt;Aiden Kim\, Portfolio\&lt;\/title\&gt;\n\n\	\&lt;\!\-\- CSS \-\-\&gt;\n\	\&lt;link href\=\&quot;assets\/bootstrap\/css\/bootstrap\.min\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/font\-awesome\.min\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/simple\-line\-icons\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/animate\.css\&quot; rel\=\&quot;stylesheet\&quot;\&gt;\n\n\	\&lt;\!\-\- Custom styles CSS \-\-\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/style\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/devicons\/css\/devicons\.min\.css\&quot; rel\=\&quot;stylesheet\&quot;\&gt;\n\n\	\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/fonts\/ionicons\/css\/ionicons\.min\.css\&quot;\&gt;\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/bootstrap\/bootstrap\.css\&quot;\&gt;\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/css\/helpers\.css\&quot;\&gt;\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/css\/restaurant\.css\&quot;\&gt;\n\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;https\:\/\/cdn\.rawgit\.com\/konpa\/devicon\/df6431e323547add1b4cf45992913f15286456d3\/devicon\.min\.css\&quot;\&gt;\n\n\	\&lt;script src\=\&quot;assets\/js\/modernizr\.custom\.js\&quot;\&gt;\&lt;\/script\&gt;\n\n\&lt;\/head\&gt;\n\&lt;body data\-spy\=\&quot;scroll\&quot; data\-target\=\&quot;\#pb\-navbar\&quot; data\-offset\=\&quot;200\&quot; \&gt;\n\n\	\&lt;\!\-\- Preloader \-\-\&gt;\n\n\	\&lt;div id\=\&quot;preloader\&quot;\&gt;\n\	\	\&lt;div id\=\&quot;status\&quot;\&gt;\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;\n\n\	\&lt;\!\-\- Navigation start \-\-\&gt;\n\n\	\&lt;header class\=\&quot;header\&quot;\&gt;\n\n\	\	\&lt;nav class\=\&quot;navbar navbar\-custom\&quot; role\=\&quot;navigation\&quot;\&gt;\n\n\	\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;navbar\-header\&quot;\&gt;\n\	\	\	\	\	\&lt;button type\=\&quot;button\&quot; class\=\&quot;navbar\-toggle\&quot; data\-toggle\=\&quot;collapse\&quot; data\-target\=\&quot;\#custom\-collapse\&quot;\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;sr\-only\&quot;\&gt;Toggle navigation\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\&lt;\/button\&gt;\n\	\	\	\	\	\&lt;a class\=\&quot;navbar\-brand\&quot; href\=\&quot;index\.html\&quot;\&gt;Aiden Kim\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;collapse navbar\-collapse\&quot; id\=\&quot;custom\-collapse\&quot;\&gt;\n\	\	\	\	\	\&lt;ul class\=\&quot;nav navbar\-nav navbar\-right\&quot;\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#home\&quot;\&gt;Home\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#services\&quot;\&gt;WhoAmI\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#portfolio\&quot;\&gt;Works\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#skills\&quot;\&gt;Skills\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#contact\&quot;\&gt;Contact\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.container \-\-\&gt;\n\n\	\	\&lt;\/nav\&gt;\n\n\	\&lt;\/header\&gt;\n\n\n\	\&lt;section class\=\&quot;pfblock pfblock\-gray\&quot; id\=\&quot;pfblock\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;pfblock\-header wow fadeInUp\&quot;\&gt;\n\	\	\	\	\&lt;h2 class\=\&quot;pfblock\-title\&quot;\&gt;My Awards\&lt;\/h2\&gt;\n\	\	\	\	\&lt;div class\=\&quot;pfblock\-line\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;div class\=\&quot;pfblock\-subtitle\&quot;\&gt;\n\	\	\	\	\	I am interested in algorithms and virtual reality\&lt;br\&gt;\n\	\	\	\	\	Usually developed using Android studios and Unity Tools\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;card\-columns\&quot;\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_1\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\	\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_1\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_2\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_2\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_3\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_3\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_4\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_4\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_5\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_5\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/award\/award_6\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/award\/award_6\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;\/div\&gt;\n\	\	\&lt;\/div\&gt;\n\	\&lt;\/section\&gt;\n\n\	\&lt;section class\=\&quot;pb_section\&quot; id\=\&quot;pfblock pfblock\-gray\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;pfblock\-header wow fadeInUp\&quot;\&gt;\n\	\	\	\	\&lt;h2 class\=\&quot;pfblock\-title\&quot;\&gt;My Certificate\&lt;\/h2\&gt;\n\	\	\	\	\&lt;div class\=\&quot;pfblock\-line\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\&lt;div class\=\&quot;pfblock\-subtitle\&quot;\&gt;\n\	\	\	\	\	I am interested in algorithms and virtual reality\&lt;br\&gt;\n\	\	\	\	\	Usually developed using Android studios and Unity Tools\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\&lt;div class\=\&quot;col\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;card\-columns\&quot;\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_1\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_1\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_2\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_2\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_5\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_5\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_4\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_4\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_3\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_3\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;card border\-0 mb\-4\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;a href\=\&quot;assets\/images\/certificate\/certificate_6\.jpg\&quot; class\=\&quot;pb_hover\-zoom image\-popup\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;img class\=\&quot;img\-fluid\&quot; src\=\&quot;assets\/images\/certificate\/certificate_6\.jpg\&quot; alt\=\&quot;Image caption here\&quot;\&gt;\n\	\	\	\	\	\	\	\	\&lt;i class\=\&quot;ion\-ios\-search\-strong icon\&quot;\&gt;\&lt;\/i\&gt;\n\	\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\	\	\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;\/div\&gt;\n\	\	\&lt;\/div\&gt;\n\	\&lt;\/section\&gt;\n\n\	\&lt;\!\-\- Portfolio end \-\-\&gt;\n\n\n\	\&lt;\!\-\- Contact end \-\-\&gt;\n\n\	\&lt;\!\-\- Footer start \-\-\&gt;\n\n\	\&lt;footer id\=\&quot;footer\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-12\&quot;\&gt;\n\n\	\	\	\	\	\&lt;ul class\=\&quot;social\-links\&quot;\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;https\:\/\/github\.com\/khseob0715\&quot; class\=\&quot;wow fadeInUp\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-github\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.1s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-twitter\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.2s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-google\-plus\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.4s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-pinterest\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.5s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-envelope\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\n\	\	\	\	\	\&lt;p class\=\&quot;heart\&quot;\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;fa fa\-heart fa\-2x animated pulse\&quot;\&gt;\&lt;\/span\&gt;\	\	\	\	\	\&lt;\/p\&gt;\n\	\	\	\	\	\	\&lt;p class\=\&quot;copyright\&quot;\&gt;\n\	\	\	\	\	\	\	\© 2018 Aiden Kim\n\	\	\	\	\	\	\&lt;\/p\&gt;\n\n\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.row \-\-\&gt;\n\	\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.container \-\-\&gt;\n\	\	\&lt;\/footer\&gt;\n\n\	\	\&lt;\!\-\- Footer end \-\-\&gt;\n\n\	\	\&lt;div id\=\&quot;pb_loader\&quot; class\=\&quot;show fullscreen\&quot;\&gt;\&lt;svg class\=\&quot;circular\&quot; width\=\&quot;48px\&quot; height\=\&quot;48px\&quot;\&gt;\&lt;circle class\=\&quot;path\-bg\&quot; cx\=\&quot;24\&quot; cy\=\&quot;24\&quot; r\=\&quot;22\&quot; fill\=\&quot;none\&quot; stroke\-width\=\&quot;4\&quot; stroke\=\&quot;\#eeeeee\&quot;\/\&gt;\&lt;circle class\=\&quot;path\&quot; cx\=\&quot;24\&quot; cy\=\&quot;24\&quot; r\=\&quot;22\&quot; fill\=\&quot;none\&quot; stroke\-width\=\&quot;4\&quot; stroke\-miterlimit\=\&quot;10\&quot; stroke\=\&quot;\#FDA04F\&quot;\/\&gt;\&lt;\/svg\&gt;\&lt;\/div\&gt;\n\n\n\n\n\	\&lt;\!\-\- Scroll to top \-\-\&gt;\n\n\	\	\&lt;div class\=\&quot;scroll\-up\&quot;\&gt;\n\	\	\	\&lt;a href\=\&quot;\#home\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-angle\-up\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\n\	\	\&lt;\/div\&gt;\n\n\	\	\&lt;\!\-\- Scroll to top end\-\-\&gt;\n\n\	\	\&lt;\!\-\- Javascript files \-\-\&gt;\n\n\	\	\&lt;script src\=\&quot;assets\/js\/jquery\-1\.11\.1\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/bootstrap\/js\/bootstrap\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/jquery\.parallax\-1\.1\.3\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/imagesloaded\.pkgd\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/jquery\.sticky\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/smoothscroll\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/wow\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/jquery\.easypiechart\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/waypoints\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/jquery\.cbpQTRotator\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/custom\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\	\&lt;script src\=\&quot;assets\/js\/magnific\-popup\-options\.js\&quot;\&gt;\&lt;\/script\&gt;\n\n\	\&lt;\/body\&gt;\n\	\&lt;\/html\&gt;</find>
+      <find>header</find>
+      <find>.navbar</find>
+      <find>navbar</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,8 +118,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/assets/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/introduction.html" />
+        <option value="$PROJECT_DIR$/android.html" />
+        <option value="$PROJECT_DIR$/assets/bootstrap/bootstrap.css" />
       </list>
     </option>
   </component>
@@ -177,6 +189,13 @@
               <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,21 +257,20 @@
       <workItem from="1520850042174" duration="212000" />
       <workItem from="1520850265795" duration="225000" />
       <workItem from="1522473951301" duration="1846000" />
+      <workItem from="1522504719776" duration="746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9931000" />
+    <option name="totallyTimeSpent" value="10677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15677084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -264,6 +282,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -280,6 +299,56 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/introduction.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/magnific-popup-options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/instant/js/jquery.magnific-popup.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="3" column="1997" lean-forward="false" selection-start-line="3" selection-start-column="1997" selection-end-line="3" selection-end-column="1997" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7942">
+          <caret line="418" column="1" lean-forward="false" selection-start-line="418" selection-start-column="1" selection-end-line="418" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="220" column="71" lean-forward="true" selection-start-line="209" selection-start-column="12" selection-end-line="220" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10773">
+          <caret line="567" column="0" lean-forward="true" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
           <caret line="90" column="37" lean-forward="false" selection-start-line="90" selection-start-column="37" selection-end-line="90" selection-end-column="37" />
           <folding />
@@ -290,7 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="10" column="22371" lean-forward="false" selection-start-line="10" selection-start-column="22371" selection-end-line="10" selection-end-column="22371" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -298,7 +366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -306,7 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -338,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="10" column="22371" lean-forward="false" selection-start-line="10" selection-start-column="22371" selection-end-line="10" selection-end-column="22371" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -346,7 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -354,7 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="10" column="22371" lean-forward="false" selection-start-line="10" selection-start-column="22371" selection-end-line="10" selection-end-column="22371" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -394,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -402,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="568" column="24" lean-forward="false" selection-start-line="568" selection-start-column="24" selection-end-line="568" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -526,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,56 +593,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="10" column="22371" lean-forward="false" selection-start-line="10" selection-start-column="22371" selection-end-line="10" selection-end-column="22371" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="418" column="1" lean-forward="false" selection-start-line="418" selection-start-column="1" selection-end-line="418" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/instant/js/jquery.magnific-popup.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="38">
           <caret line="3" column="1997" lean-forward="false" selection-start-line="3" selection-start-column="1997" selection-end-line="3" selection-end-column="1997" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/introduction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/magnific-popup-options.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="220" column="71" lean-forward="true" selection-start-line="209" selection-start-column="12" selection-end-line="220" selection-end-column="71" />
+        <state relative-caret-position="171">
+          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="677">
-          <caret line="567" column="0" lean-forward="true" selection-start-line="567" selection-start-column="0" selection-end-line="567" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="59" column="39" lean-forward="false" selection-start-line="59" selection-start-column="39" selection-end-line="59" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/introduction.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="236" column="0" lean-forward="true" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="801" column="29" lean-forward="true" selection-start-line="801" selection-start-column="29" selection-end-line="801" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/bootstrap/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding />
         </state>
       </provider>

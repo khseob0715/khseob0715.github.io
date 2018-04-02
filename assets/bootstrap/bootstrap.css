@@ -35,8 +35,11 @@
   /*h2,*/
   /*h3 {*/
     /*page-break-after: avoid; }*/
-  /*.navbar {*/
-    /*display: none; }*/
+  .navbar {
+    position: relative;
+    min-height : 50px;
+    margin-bottom:0px;
+  }
   /*.badge {*/
     /*border: 1px solid #000; }*/
   /*.table {*/
