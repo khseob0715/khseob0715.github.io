@@ -831,7 +831,8 @@ textarea.form-control {
 .navbar-custom .navbar-brand {
 	font-weight: 700;
 	font-size: 22px;
-    font-family: Lobster, cursive;
+    font-family: Arial, cursive; 
+    /*원래 lobster 폰트 였는데, web fonts 로드 시간이 길어져서 변경 함 */
 }
 
 .navbar-custom .dropdown-menu {
