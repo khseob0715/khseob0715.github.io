@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7f98c76d-f4dc-4993-aa53-87482c289f19" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/android.html" afterPath="$PROJECT_DIR$/android.html" />
+      <change beforePath="$PROJECT_DIR$/iot.html" afterPath="$PROJECT_DIR$/iot.html" />
+      <change beforePath="$PROJECT_DIR$/temp.html" afterPath="$PROJECT_DIR$/temp.html" />
+      <change beforePath="$PROJECT_DIR$/virtual.html" afterPath="$PROJECT_DIR$/virtual.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,46 +18,65 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="android.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/android.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="202" column="80" lean-forward="false" selection-start-line="202" selection-start-column="80" selection-end-line="202" selection-end-column="80" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1523805199928" expanded="false" signature="10097:10125" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="12253:12270" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="13412:13439" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="13618:13646" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="13820:13836" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="17423:17440" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="18598:18625" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="18804:18832" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="19006:19022" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="22633:22650" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="23792:23819" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="23998:24026" ph="..." />
-                <marker date="1523805199928" expanded="false" signature="24200:24216" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.533099">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="android.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/android.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="581">
+                  <caret line="337" column="22" lean-forward="false" selection-start-line="323" selection-start-column="16" selection-end-line="337" selection-end-column="22" />
+                  <folding>
+                    <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="iot.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/iot.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3">
+                  <caret line="214" column="26" lean-forward="true" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="virtual.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/virtual.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="491">
+                  <caret line="291" column="10" lean-forward="false" selection-start-line="291" selection-start-column="10" selection-end-line="291" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="temp.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/temp.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="191" column="56" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="56" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -74,6 +95,7 @@
       <find>.navbar</find>
       <find>navbar</find>
       <find>url</find>
+      <find>\&lt;\!DOCTYPE html\&gt;\n\&lt;html lang\=\&quot;en\&quot;\&gt;\n\&lt;head\&gt;\n\	\&lt;meta charset\=\&quot;UTF\-8\&quot;\&gt;\n\	\&lt;meta name\=\&quot;viewport\&quot; content\=\&quot;width\=device\-width\, initial\-scale\=1\.0\&quot;\&gt;\n\	\&lt;meta name\=\&quot;description\&quot; content\=\&quot;\&quot;\&gt;\n\	\&lt;meta name\=\&quot;author\&quot; content\=\&quot;\&quot;\&gt;\n\n\	\&lt;title\&gt;Aiden Kim\, Portfolio\&lt;\/title\&gt;\n\n\	\&lt;\!\-\- CSS \-\-\&gt;\n\	\&lt;link href\=\&quot;assets\/bootstrap\/css\/bootstrap\.min\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/font\-awesome\.min\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/simple\-line\-icons\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/animate\.css\&quot; rel\=\&quot;stylesheet\&quot;\&gt;\n\n\	\&lt;\!\-\- Custom styles CSS \-\-\&gt;\n\	\&lt;link href\=\&quot;assets\/css\/style\.css\&quot; rel\=\&quot;stylesheet\&quot; media\=\&quot;screen\&quot;\&gt;\n\	\n\	\&lt;link href\=\&quot;assets\/bootstrap\/337\/css\/bootstrap\.min\.css\&quot; rel\=\&quot;stylesheet\&quot;\&gt;\n\n    \&lt;\!\-\- Include css Owl Carousel \-\-\&gt;\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/owl\/owl\.carousel\.min\.css\&quot;\&gt;\n\	\&lt;link rel\=\&quot;stylesheet\&quot; href\=\&quot;assets\/owl\/owl\.theme\.default\.min\.css\&quot;\&gt;\n\	\n\	\&lt;script src\=\&quot;assets\/js\/jquery\-1\.11\.1\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/bootstrap\/js\/bootstrap\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/jquery\.parallax\-1\.1\.3\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/imagesloaded\.pkgd\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/jquery\.sticky\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/smoothscroll\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/wow\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/jquery\.easypiechart\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/waypoints\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/jquery\.cbpQTRotator\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/custom\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/js\/modernizr\.custom\.js\&quot;\&gt;\&lt;\/script\&gt;\n\n\	\&lt;script src\=\&quot;assets\/owl\/jquery\.min\.js\&quot;\&gt;\&lt;\/script\&gt;\n\	\&lt;script src\=\&quot;assets\/owl\/owl\.carousel\.js\&quot;\&gt;\&lt;\/script\&gt;\n\n\	\n\&lt;\/head\&gt;\n\&lt;body\&gt;\n\n\	\&lt;\!\-\- Preloader \-\-\&gt;\n\n\	\&lt;div id\=\&quot;preloader\&quot;\&gt;\n\	\	\&lt;div id\=\&quot;status\&quot;\&gt;\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;\n\n\	\&lt;\!\-\- Home start \-\-\&gt;\n\n\	\n\n\	\&lt;\!\-\- Home end \-\-\&gt;\n\n\	\&lt;\!\-\- Navigation start \-\-\&gt;\n\n\	\&lt;header class\=\&quot;header\&quot;\&gt;\n\n\	\	\&lt;nav class\=\&quot;navbar navbar\-custom\&quot; role\=\&quot;navigation\&quot;\&gt;\n\n\	\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;navbar\-header\&quot;\&gt;\n\	\	\	\	\	\&lt;button type\=\&quot;button\&quot; class\=\&quot;navbar\-toggle\&quot; data\-toggle\=\&quot;collapse\&quot; data\-target\=\&quot;\#custom\-collapse\&quot;\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;sr\-only\&quot;\&gt;Toggle navigation\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\	\&lt;span class\=\&quot;icon\-bar\&quot;\&gt;\&lt;\/span\&gt;\n\	\	\	\	\	\&lt;\/button\&gt;\n\	\	\	\	\	\&lt;a class\=\&quot;navbar\-brand\&quot; href\=\&quot;index\.html\&quot;\&gt;Aiden Kim\&lt;\/a\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;collapse navbar\-collapse\&quot; id\=\&quot;custom\-collapse\&quot;\&gt;\n\	\	\	\	\	\&lt;ul class\=\&quot;nav navbar\-nav navbar\-right\&quot;\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#home\&quot;\&gt;Home\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#services\&quot;\&gt;WhoAmI\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#portfolio\&quot;\&gt;Works\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#skills\&quot;\&gt;Skills\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;\#contact\&quot;\&gt;Contact\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;\/ul\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.container \-\-\&gt;\n\n\	\	\&lt;\/nav\&gt;\n\n\	\&lt;\/header\&gt;\n\n\	\&lt;\!\-\- Navigation end \-\-\&gt;\n\n\	\&lt;\!\-\- Services start \-\-\&gt;\n\n\	\&lt;section id\=\&quot;services\&quot; class\=\&quot;pfblock pfblock\-gray\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-6 col\-sm\-offset\-3\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;pfblock\-header wow fadeInUp\&quot;\&gt;\n\	\	\	\	\	\	\&lt;h2 class\=\&quot;pfblock\-title\&quot;\&gt;About me\&lt;\/h2\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;pfblock\-line\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;pfblock\-subtitle\&quot;\&gt;\n\	\	\	\	\	\	\	Hanseob Kim\(1994\)\, Aiden\&lt;br\&gt;\n\	\	\	\	\	\	\	Department of Computer Engineering\, Chosun University\&lt;br\&gt;\n\	\	\	\	\	\	\	Visual computing laboratory member\&lt;br\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-6\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;iconbox wow slideInRight\&quot;\&gt;\n\	\	\	\	\	\	\&lt;a class\=\&quot;nav\-link js\-scroll\-trigger\&quot; href\=\&quot;\#matchGame\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;img src\=\&quot;assets\/images\/android\/android_img1\.png\&quot; width\=\&quot;400\&quot; height\=\&quot;400\&quot;\&gt;\n\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-text\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-desc\&quot; align\=\&quot;center\&quot; style\=\&quot;margin\-top\: 30px \&quot;\&gt;\n\	\	\	\	\	\	\	\	학과 안드로이드 스튜디오 수업 개인 프로젝트\&lt;br\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-6\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;iconbox wow slideInRight\&quot;\&gt;\n\	\	\	\	\	\	\&lt;a class\=\&quot;nav\-link js\-scroll\-trigger\&quot; href\=\&quot;\#openhack\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;img src\=\&quot;assets\/images\/android\/android_img2\.png\&quot; width\=\&quot;400\&quot; height\=\&quot;400\&quot;\&gt;\n\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-text\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-desc\&quot; align\=\&quot;center\&quot; style\=\&quot;margin\-top\: 30px \&quot;\&gt;\n\	\	\	\	\	\	\	\	증강현실 게임의 여행지 추천 어플리케이션 개발\&lt;br\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-6\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;iconbox wow slideInLeft\&quot;\&gt;\n\	\	\	\	\	\	\&lt;a class\=\&quot;nav\-link js\-scroll\-trigger\&quot; href\=\&quot;\#runtoyou\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;img src\=\&quot;assets\/images\/android\/android_img3\.png\&quot; width\=\&quot;400\&quot; height\=\&quot;400\&quot;\&gt;\n\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-text\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-desc\&quot; align\=\&quot;center\&quot; style\=\&quot;margin\-top\: 30px \&quot;\&gt;\n\	\	\	\	\	\	\	\	Face API를 활용한 미아 찾기 어플리케이션 개발\&lt;br\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;col\-sm\-6\&quot;\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;iconbox wow slideInLeft\&quot;\&gt;\n\	\	\	\	\	\	\&lt;a class\=\&quot;nav\-link js\-scroll\-trigger\&quot; href\=\&quot;\#mydoctora\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;img src\=\&quot;assets\/images\/android\/android_img4\.png\&quot; width\=\&quot;400\&quot; height\=\&quot;400\&quot;\&gt;\n\	\	\	\	\	\	\&lt;\/a\&gt;\n\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-text\&quot;\&gt;\n\	\	\	\	\	\	\	\&lt;div class\=\&quot;iconbox\-desc\&quot; align\=\&quot;center\&quot; style\=\&quot;margin\-top\: 30px \&quot;\&gt;\n\	\	\	\	\	\	\	\	Qualcomm Institute Healthcare IoT challenge\&lt;br\&gt;\n\	\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\&lt;\/div\&gt;\n\n\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.row \-\-\&gt;\n\	\&lt;\/div\&gt;\&lt;\!\-\- \.container \-\-\&gt;\n\&lt;\/section\&gt;\n\n\&lt;\!\-\- Services end \-\-\&gt;\n\n\n\n\n\n\n\&lt;\!\-\- Portfolio start \-\-\&gt;\n\n\&lt;section id\=\&quot;portfolio\&quot; class\=\&quot;pfblock\&quot;\&gt;\n\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\n\	\	\	\&lt;div class\=\&quot;col\-sm\-6 col\-sm\-offset\-3\&quot;\&gt;\n\n\	\	\	\	\&lt;div class\=\&quot;pfblock\-header wow fadeInUp\&quot;\&gt;\n\	\	\	\	\	\&lt;h2 class\=\&quot;pfblock\-title\&quot;\&gt;My works\&lt;\/h2\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;pfblock\-line\&quot;\&gt;\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;pfblock\-subtitle\&quot;\&gt;\n\	\	\	\	\	\	I am interested in algorithms and virtual reality\&lt;br\&gt;\n\	\	\	\	\	\	Usually developed using Android studios and Unity Tools\n\	\	\	\	\	\&lt;\/div\&gt;\n\	\	\	\	\	\&lt;div class\=\&quot;owl\-carousel owl\-theme\&quot;\&gt;\n  \&lt;\!\-\-   \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=1\&quot; data\-src\-retina\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=1\-retina\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=2\&quot; data\-src\-retina\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=2\-retina\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;picture\&gt;\n        \&lt;source class\=\&quot;owl\-lazy\&quot; media\=\&quot;\(min\-width\: 650px\)\&quot; data\-srcset\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=3\-large\&quot;\&gt;\n        \&lt;source class\=\&quot;owl\-lazy\&quot; media\=\&quot;\(min\-width\: 350px\)\&quot; data\-srcset\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=3\-medium\&quot;\&gt;\n        \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;https\:\/\/placehold\.it\/350x250\&amp;text\=3\-fallback\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;\/picture\&gt; \-\-\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(1\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(2\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(3\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(4\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(5\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(6\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(7\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(8\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(9\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n    \&lt;img class\=\&quot;owl\-lazy\&quot; data\-src\=\&quot;assets\/images\/android\/android_img1_ppt\/slide \(10\)\.PNG\&quot; alt\=\&quot;\&quot;\&gt;\n\n\&lt;\/div\&gt;\n\	\	\	\	\&lt;\/div\&gt;\n\n\	\	\	\&lt;\/div\&gt;\n\n\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.row \-\-\&gt;\n\	\&lt;\/div\&gt;\n\	\&lt;div class\=\&quot;container pv\-40\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\	\	\	\&lt;div class\=\&quot;col\-sm\-6 col\-sm\-offset\-3\&quot;\&gt;\n\	\	\	\	\n\	\	\	\&lt;\/div\&gt;\n\	\	\&lt;\/div\&gt;\n\	\&lt;\/div\&gt;\n\	\&lt;script\&gt;\n            jQuery\(document\)\.ready\(function\(\$\) \{\n              \$\(\'\.owl\-carousel\'\)\.owlCarousel\(\{\n                items\: 1\,\n                lazyLoad\: true\,\n                loop\: true\,\n                margin\: 10\,\n                autoplay\:true\,\n\	\	\	\	autoplayTimeout\:5000\,\n\	\	\	\	autoplayHoverPause\:true\,\n              \}\)\;\n            \}\)\;\n          \&lt;\/script\&gt;\n\&lt;\/section\&gt;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\&lt;footer id\=\&quot;footer\&quot;\&gt;\n\	\&lt;div class\=\&quot;container\&quot;\&gt;\n\	\	\&lt;div class\=\&quot;row\&quot;\&gt;\n\n\	\	\	\&lt;div class\=\&quot;col\-sm\-12\&quot;\&gt;\n\n\	\	\	\	\&lt;ul class\=\&quot;social\-links\&quot;\&gt;\n\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;https\:\/\/github\.com\/khseob0715\&quot; class\=\&quot;wow fadeInUp\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-github\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.1s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-twitter\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.2s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-google\-plus\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.4s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-pinterest\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\	\&lt;li\&gt;\&lt;a href\=\&quot;index\.html\#\&quot; class\=\&quot;wow fadeInUp\&quot; data\-wow\-delay\=\&quot;\.5s\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-envelope\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\&lt;\/li\&gt;\n\	\	\	\	\&lt;\/ul\&gt;\n\n\	\	\	\	\&lt;p class\=\&quot;heart\&quot;\&gt;\n\	\	\	\	\	\&lt;span class\=\&quot;fa fa\-heart fa\-2x animated pulse\&quot;\&gt;\&lt;\/span\&gt;\	\	\	\	\	\n\	\	\	\	\&lt;\/p\&gt;\n\	\	\	\	\&lt;p class\=\&quot;copyright\&quot;\&gt;\n\	\	\	\	\	\© 2018 Aiden Kim\n\	\	\	\	\&lt;\/p\&gt;\n\n\	\	\	\&lt;\/div\&gt;\n\n\	\	\&lt;\/div\&gt;\&lt;\!\-\- \.row \-\-\&gt;\n\	\&lt;\/div\&gt;\&lt;\!\-\- \.container \-\-\&gt;\n\&lt;\/footer\&gt;\n\n\&lt;\!\-\- Footer end \-\-\&gt;\n\n\&lt;\!\-\- Scroll to top \-\-\&gt;\n\n\&lt;div class\=\&quot;scroll\-up\&quot;\&gt;\n\	\&lt;a href\=\&quot;\#home\&quot;\&gt;\&lt;i class\=\&quot;fa fa\-angle\-up\&quot;\&gt;\&lt;\/i\&gt;\&lt;\/a\&gt;\n\&lt;\/div\&gt;\n\n\&lt;\!\-\- Scroll to top end\-\-\&gt;\n\n\&lt;\!\-\- Javascript files \-\-\&gt;\n\n\&lt;\/body\&gt;\n\&lt;\/html\&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,7 +108,10 @@
         <option value="$PROJECT_DIR$/introduction.html" />
         <option value="$PROJECT_DIR$/assets/bootstrap/bootstrap.css" />
         <option value="$PROJECT_DIR$/assets/bootstrap/337/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/temp.html" />
         <option value="$PROJECT_DIR$/android.html" />
+        <option value="$PROJECT_DIR$/iot.html" />
+        <option value="$PROJECT_DIR$/virtual.html" />
       </list>
     </option>
   </component>
@@ -132,8 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,36 +180,7 @@
               <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="337" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="337" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="337" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="khseob0715.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="khseob0715.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -198,6 +192,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,17 +238,26 @@
       <workItem from="1522705484951" duration="378000" />
       <workItem from="1523544906158" duration="1003000" />
       <workItem from="1523796956337" duration="6384000" />
+      <workItem from="1523886564123" duration="2895000" />
     </task>
+    <task id="LOCAL-00001" summary="android html owl carousel update">
+      <created>1523888009501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523888009501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18442000" />
+    <option name="totallyTimeSpent" value="21337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31419623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1109375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -260,7 +265,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -277,6 +282,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="android html owl carousel update" />
+    <option name="LAST_COMMIT_MESSAGE" value="android html owl carousel update" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -284,20 +293,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/fonts/ionicons/cheatsheet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/restaurant.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
@@ -308,28 +303,9 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523805199928" expanded="false" signature="10097:10125" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="12253:12270" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13412:13439" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13618:13646" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13820:13836" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="17423:17440" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18598:18625" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18804:18832" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="19006:19022" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="22633:22650" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23792:23819" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23998:24026" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="24200:24216" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -379,28 +355,9 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523805199928" expanded="false" signature="10097:10125" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="12253:12270" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13412:13439" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13618:13646" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13820:13836" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="17423:17440" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18598:18625" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18804:18832" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="19006:19022" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="22633:22650" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23792:23819" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23998:24026" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="24200:24216" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -450,28 +407,9 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523805199928" expanded="false" signature="10097:10125" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="12253:12270" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13412:13439" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13618:13646" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13820:13836" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="17423:17440" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18598:18625" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18804:18832" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="19006:19022" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="22633:22650" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23792:23819" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23998:24026" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="24200:24216" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3762">
           <caret line="198" column="5" lean-forward="false" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
           <caret line="10" column="40272" lean-forward="false" selection-start-line="10" selection-start-column="40272" selection-end-line="10" selection-end-column="40272" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,16 +637,8 @@
         <state relative-caret-position="19">
           <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,49 +650,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/owl.carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/owl.carousel.js" />
     <entry file="file://$PROJECT_DIR$/android.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="202" column="80" lean-forward="false" selection-start-line="202" selection-start-column="80" selection-end-line="202" selection-end-column="80" />
+        <state relative-caret-position="581">
+          <caret line="337" column="22" lean-forward="false" selection-start-line="323" selection-start-column="16" selection-end-line="337" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523805199928" expanded="false" signature="10097:10125" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="12253:12270" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13412:13439" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13618:13646" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="13820:13836" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="17423:17440" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18598:18625" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="18804:18832" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="19006:19022" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="22633:22650" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23792:23819" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="23998:24026" ph="..." />
-            <marker date="1523805199928" expanded="false" signature="24200:24216" ph="..." />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="214" column="26" lean-forward="true" selection-start-line="214" selection-start-column="26" selection-end-line="214" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="191" column="56" lean-forward="true" selection-start-line="191" selection-start-column="20" selection-end-line="191" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/virtual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="291" column="10" lean-forward="false" selection-start-line="291" selection-start-column="10" selection-end-line="291" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
