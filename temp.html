@@ -38,9 +38,12 @@
 	<script src="assets/owl/owl.carousel.js"></script>
 
 	<script type="text/javascript">
-		$(document).ready(function(){
-  			$(".owl-carousel").owlCarousel();
-		});
+		$('.owl-carousel').owlCarousel({
+    items:4,
+    lazyLoad:true,
+    loop:true,
+    margin:10
+});
 	</script>
 </head>
 <body>
@@ -177,20 +180,26 @@
 <!-- Services end -->
 
 
-<div class="owl-carousel">
-  <div> <img src="assets/images/android/android_img1_ppt/slide (1).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (2).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (3).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (4).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (5).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (6).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (7).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (8).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (9).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (10).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (11).PNG" alt="First Slide"></div>
-  <div> <img src="assets/images/android/android_img1_ppt/slide (12).PNG" alt="First Slide"></div>
+<div class="owl-carousel owl-theme">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
+    <picture>
+        <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
+        <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
+        <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
+    </picture>
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (1).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (2).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (3).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (4).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (5).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (6).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (7).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (8).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (9).PNG" alt="">
+    <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (10).PNG" alt="">
 </div>
+
 
 
 <!-- Portfolio start -->
