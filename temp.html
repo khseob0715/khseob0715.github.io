@@ -38,12 +38,14 @@
 	<script src="assets/owl/owl.carousel.js"></script>
 
 	<script type="text/javascript">
-		$('.owl-carousel').owlCarousel({
-    items:4,
-    lazyLoad:true,
-    loop:true,
-    margin:10
-});
+		jQuery(document).ready(function($) {
+              $('.owl-carousel').owlCarousel({
+                items: 4,
+                lazyLoad: true,
+                loop: true,
+                margin: 10
+              });
+            });
 	</script>
 </head>
 <body>
@@ -181,13 +183,13 @@
 
 
 <div class="owl-carousel owl-theme">
-    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
+   <!--  <img class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
     <img class="owl-lazy" data-src="https://placehold.it/350x250&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
     <picture>
         <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
         <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
         <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
-    </picture>
+    </picture> -->
     <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (1).PNG" alt="">
     <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (2).PNG" alt="">
     <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (3).PNG" alt="">
