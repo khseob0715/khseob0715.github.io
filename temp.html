@@ -16,7 +16,8 @@
 
     <!-- Custom styles CSS -->
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
-
+    <link href="assets/css/filter/filter.css" rel="stylesheet">
+    <script src="assets/js/filter/filter.js"></script>
     <link href="assets/bootstrap/337/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Include css Owl Carousel -->
@@ -43,55 +44,141 @@
 </head>
 <body>
 
-<!-- Preloader -->
+    <!-- Preloader -->
 
-<div id="preloader">
-    <div id="status"></div>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+
+    <!-- Home start -->
+
+
+    <!-- Home end -->
+
+    <!-- Navigation start -->
+
+    <header class="header">
+
+        <nav class="navbar navbar-custom" role="navigation">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Aiden Kim</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="custom-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">WhoAmI</a></li>
+                        <li><a href="#portfolio">Works</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- .container -->
+
+        </nav>
+
+    </header>
+
+    <!-- Navigation end -->
+
+    <!-- Services start -->
+
+    <h2>PORTFOLIO</h2>
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('nature')"> Nature</button>
+      <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+      <button class="btn" onclick="filterSelection('people')"> People</button>
+  </div>
+
+  <!-- Portfolio Gallery Grid -->
+  <div class="row">
+      <div class="column nature">
+        <div class="pfblock-header wow fadeInUp-short">
+            <div class="content">
+              <img src="assets/images/iot/iot_img2_ppt/slide (1).PNG" alt="Lights" style="width:50%">
+              <h4>Ldasdasfasdahts</h4>
+              <p>Lorem ipsum dolor..</p>
+          </div>
+      </div>
+  </div>
+  <div class="column nature">
+    <div class="pfblock-header wow fadeInUp">
+        <div class="content">
+          <img src="assets/images/iot/iot_img2_ppt/slide (1).PNG" alt="Lights" style="width:50%">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+      </div>
+  </div>
+</div>
+<div class="column nature">
+    <div class="content">
+      <img src="assets/images/iot/iot_img2_ppt/slide (1).PNG" alt="Lights" style="width:50%">
+      <h4>Forest</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
 </div>
 
-<!-- Home start -->
+<div class="column cars">
+    <div class="content">
+      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
+</div>
+<div class="column cars">
+    <div class="pfblock-header wow fadeInLeft">
+        <div class="content">
+          <img src="assets/images/iot/iot_img2_ppt/slide (1).PNG" alt="Lights" style="width:50%">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+      </div>
+  </div>
+</div>
+<div class="column cars">
+    <div class="content">
 
+      <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Classic</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
+</div>
 
-<!-- Home end -->
-
-<!-- Navigation start -->
-
-<header class="header">
-
-    <nav class="navbar navbar-custom" role="navigation">
-
-        <div class="container">
-
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Aiden Kim</a>
-            </div>
-
-            <div class="collapse navbar-collapse" id="custom-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">WhoAmI</a></li>
-                    <li><a href="#portfolio">Works</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-        </div><!-- .container -->
-
-    </nav>
-
-</header>
-
-<!-- Navigation end -->
-
-<!-- Services start -->
-
+<div class="column people">
+    <div class="pfblock-header wow fadeInUp">
+        <div class="content">
+          <img src="assets/images/iot/iot_img2_ppt/slide (1).PNG" alt="Lights" style="width:50%">
+          <h4>Lights</h4>
+          <p>Lorem ipsum dolor..</p>
+      </div>
+  </div>
+</div>
+<div class="column people">
+    <div class="content">
+      <img src="/w3images/people2.jpg" alt="People" style="width:100%">
+      <h4>Man</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
+</div>
+<div class="column people">
+    <div class="content">
+      <img src="/w3images/people3.jpg" alt="People" style="width:100%">
+      <h4>Woman</h4>
+      <p>Lorem ipsum dolor..</p>
+  </div>
+</div>
+<!-- END GRID -->
+</div>
 <section id="services" class="pfblock pfblock-gray">
     <div class="container">
         <div class="row">
@@ -168,74 +255,13 @@
         </div>
 
     </div><!-- .row -->
-    </div><!-- .container -->
+</div><!-- .container -->
 </section>
 
 <!-- Services end -->
 
 
 <!-- Portfolio start -->
-
-<section id="portfolio" class="pfblock">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-sm-6 col-sm-offset-3">
-
-                <div class="pfblock-header wow fadeInUp">
-                    <h2 class="pfblock-title">My works</h2>
-                    <div class="pfblock-line"></div>
-                    <div class="pfblock-subtitle">
-                        I am interested in algorithms and virtual reality<br>
-                        Usually developed using Android studios and Unity Tools
-                    </div>
-                    <div class="owl-carousel owl-theme">
-                        <!--   <img class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
-                          <img class="owl-lazy" data-src="https://placehold.it/350x250&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
-                          <picture>
-                              <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
-                              <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
-                              <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
-                          </picture> -->
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (1).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (2).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (3).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (4).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (5).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (6).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (7).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (8).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (9).PNG" alt="">
-                        <img class="owl-lazy" data-src="assets/images/android/android_img1_ppt/slide (10).PNG" alt="">
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div><!-- .row -->
-    </div>
-    <div class="container pv-40">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-
-            </div>
-        </div>
-    </div>
-    <script>
-        jQuery(document).ready(function ($) {
-            $('.owl-carousel').owlCarousel({
-                items: 1,
-                lazyLoad: true,
-                loop: true,
-                margin: 10,
-                autoplay: true,
-                autoplayTimeout: 5000,
-                autoplayHoverPause: true,
-            });
-        });
-    </script>
-</section>
 
 
 <footer id="footer">
@@ -248,39 +274,39 @@
                     <li><a href="https://github.com/khseob0715" class="wow fadeInUp"><i class="fa fa-github"></i></a>
                     </li>
                     <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
-                            class="fa fa-twitter"></i></a></li>
-                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
+                        class="fa fa-twitter"></i></a></li>
+                        <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
                             class="fa fa-google-plus"></i></a></li>
-                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
-                    </li>
-                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
-                            class="fa fa-envelope"></i></a></li>
-                </ul>
+                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
+                                class="fa fa-envelope"></i></a></li>
+                            </ul>
 
-                <p class="heart">
-                    <span class="fa fa-heart fa-2x animated pulse"></span>
-                </p>
-                <p class="copyright">
-                    © 2018 Aiden Kim
-                </p>
+                            <p class="heart">
+                                <span class="fa fa-heart fa-2x animated pulse"></span>
+                            </p>
+                            <p class="copyright">
+                                © 2018 Aiden Kim
+                            </p>
 
+                        </div>
+
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </footer>
+
+            <!-- Footer end -->
+
+            <!-- Scroll to top -->
+
+            <div class="scroll-up">
+                <a href="#home"><i class="fa fa-angle-up"></i></a>
             </div>
 
-        </div><!-- .row -->
-    </div><!-- .container -->
-</footer>
+            <!-- Scroll to top end-->
 
-<!-- Footer end -->
+            <!-- Javascript files -->
 
-<!-- Scroll to top -->
-
-<div class="scroll-up">
-    <a href="#home"><i class="fa fa-angle-up"></i></a>
-</div>
-
-<!-- Scroll to top end-->
-
-<!-- Javascript files -->
-
-</body>
-</html>
+        </body>
+        </html>
