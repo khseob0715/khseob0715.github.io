@@ -18,7 +18,8 @@
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
 
     <link href="assets/bootstrap/337/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/css/modal/mymodal.css">
+    
     <!-- Include css Owl Carousel -->
     <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
@@ -226,7 +227,7 @@
                                 <br>
 
                                 <h3 class="mt-4">개발 과정 및 결과</h3>
-                                본 프로젝트는 가상여행 콘텐츠의 현실성을 극대화하기 위하여 구글 스트리트 뷰 이미지 API 서버로부터 실제 이미지를 제공받아 가상의 여행 공간을 구현하였다. 구현에 사용된 소프트웨어는 Unity 3D엔진이며 C#언어로 개발되었다. 상호작용과 몰입감이 부족한 문제를 해결하기 위하여 HMD 장비인 HTC VIVE를 이용해 사용자가 이동하고 싶은 방향을 확인하고, 트레드밀 기반의 Virtuix Omni장비를 이용하여 사용자의 걷는 동작을 추적해 이동하기 때문에 사용자가 가상의 공간과 자연스럽게 상호작용하며 몰입형 도보 여행을 체험할 수 있도록 하였다. API에서 제공해주는 방대한 양의 거리 이미지에 대해서 실시간으로 가상의 공간을 생성하기 때문에 전 세계의 다양한 지역을 여행할 수 있으며, 기존 응용프로그램들의 제한된 공간 문제를 해결하였다. <br>
+                                본 프로젝트는 가상여행 콘텐츠의 현실성을 극대화하기 위하여 구글 스트리트 뷰 이미지 API 서버로부터 실제 이미지를 제공받아 가상의 여행 공간을 구현하였다. 구현에 사용된 소프트웨어는 Unity 3D엔진이며 C#언어로 개발되었다. 상호작용과 몰입감이 부족한 문제를 해결하기 위하여 HMD 장비인 HTC VIVE를 이용해 사용자가 이동하고 싶은 방향을 확인하고, 트레드밀 기반의 Virtuix Omni장비를 이용하여 사용자의 걷는 동작을 추적해 이동하기 때문에 사용자가 가상의 공간과 자연스럽게 상호작용하며 몰입형 도보 여행을 체험할 수 있도록 하였다. API에서 제공해주는 방대한 양의 거리 이미지에 대해서 실시간으로 가상의 공간을 생성하기 때문에 전 세계의 다양한 지역을 여행할 수 있으며, 기존 응용프로그램들의 제한된 공간 문제를 해결하였다. 
 
                                 보다 자세한 개발 과정은 해당 논문을 참고 해주시기 바랍니다.<br>
 
@@ -260,8 +261,9 @@
                                         <li><strong>Tool: </strong> <span class="text-right">Unity3D 2017.2.0f3</span></li>
                                         <li><strong>H/W: </strong> <span class="text-right">Virtuix Omni, HTC VIVE</span></li>
                                     </ul>
-                                    <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award LINK </strong><i class="fa fa-external-link"></i></a>
+                                    <img id="myImg" src="assets/images/award/award_2.jpg" onclick="openModal('assets/images/award/award_2.jpg')" style="width:50%" >
                                     <br>
+                                    
                                     <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
                                 </div>
                             </div>
@@ -285,53 +287,61 @@
             </div>
         </section>
 
+        <div id="myModal" class="modal modal-backdrop modal-open">
 
-        <!-- Contact end -->
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
 
-        <!-- Footer start -->
+          <!-- Modal Caption (Image Text) -->
+          <div id="caption"></div>
+      </div>
 
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
+      <!-- Contact end -->
 
-                    <div class="col-sm-12">
+      <!-- Footer start -->
 
-                        <ul class="social-links">
-                            <li><a href="https://github.com/khseob0715" class="wow fadeInUp"><i class="fa fa-github"></i></a>
-                            </li>
-                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
-                                class="fa fa-twitter"></i></a></li>
-                                <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
-                                    class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
-                                    </li>
-                                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
-                                        class="fa fa-envelope"></i></a></li>
-                                    </ul>
+      <footer id="footer">
+        <div class="container">
+            <div class="row">
 
-                                    <p class="heart">
-                                        <span class="fa fa-heart fa-2x animated pulse"></span>
-                                    </p>
-                                    <p class="copyright">
-                                        © 2018 Aiden Kim
-                                    </p>
+                <div class="col-sm-12">
 
-                                </div>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/khseob0715" class="wow fadeInUp"><i class="fa fa-github"></i></a>
+                        </li>
+                        <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
+                            class="fa fa-twitter"></i></a></li>
+                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
+                                class="fa fa-google-plus"></i></a></li>
+                                <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
+                                </li>
+                                <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
+                                    class="fa fa-envelope"></i></a></li>
+                                </ul>
 
-                            </div><!-- .row -->
-                        </div><!-- .container -->
-                    </footer>
+                                <p class="heart">
+                                    <span class="fa fa-heart fa-2x animated pulse"></span>
+                                </p>
+                                <p class="copyright">
+                                    © 2018 Aiden Kim
+                                </p>
 
-                    <!-- Footer end -->
+                            </div>
 
-                    <!-- Scroll to top -->
+                        </div><!-- .row -->
+                    </div><!-- .container -->
+                </footer>
 
-                    <div class="scroll-up">
-                        <a href="#Main"><i class="fa fa-angle-up"></i></a>
-                    </div>
+                <!-- Footer end -->
+
+                <!-- Scroll to top -->
+
+                <div class="scroll-up">
+                    <a href="#Main"><i class="fa fa-angle-up"></i></a>
+                </div>
 
 
-                    <!-- Scroll to top end-->
-
-                </body>
-                </html>
+                <!-- Scroll to top end-->
+                <script src="assets/js/modal/modal.js"></script>
+            </body>
+            </html>

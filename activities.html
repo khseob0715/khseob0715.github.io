@@ -18,7 +18,7 @@
 	<link href="assets/css/style.css" rel="stylesheet" media="screen">
 
 	<link href="assets/bootstrap/337/css/bootstrap.min.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="assets/css/modal/mymodal.css">
 	<!-- Include css Owl Carousel -->
 	<link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
@@ -133,35 +133,35 @@
 				</div>
 
 				<div class="row">
-				<div class="col-sm-6">
-					<div class="iconbox wow slideInRight">
-						<a class="nav-link js-scroll-trigger" href="#drone">
-							<img src="assets/images/iot/iot_img1.PNG" width="400" height="400">
-						</a>
-						<div class="iconbox-text">
-							<div class="iconbox-desc" align="center" style="margin-top: 30px ">
-								기업 분석 공모전 잉카인터넷<br>
+					<div class="col-sm-6">
+						<div class="iconbox wow slideInRight">
+							<a class="nav-link js-scroll-trigger" href="#drone">
+								<img src="assets/images/iot/iot_img1.PNG" width="400" height="400">
+							</a>
+							<div class="iconbox-text">
+								<div class="iconbox-desc" align="center" style="margin-top: 30px ">
+									기업 분석 공모전 잉카인터넷<br>
+								</div>
 							</div>
-						</div>
-						
-					</div>
-				</div>
 
-				<div class="col-sm-6">
-					<div class="iconbox wow slideInRight">
-						<a class="nav-link js-scroll-trigger" href="#responsible">
-							<img src="assets/images/iot/iot_img2.png" width="400" height="400">
-						</a>
-						<div class="iconbox-text">
-							<div class="iconbox-desc" align="center" style="margin-top: 30px ">
-								청년 취업 아카데미 최종 프로젝트<br>
-							</div>
 						</div>
 					</div>
 
-				</div>
+					<div class="col-sm-6">
+						<div class="iconbox wow slideInRight">
+							<a class="nav-link js-scroll-trigger" href="#responsible">
+								<img src="assets/images/iot/iot_img2.png" width="400" height="400">
+							</a>
+							<div class="iconbox-text">
+								<div class="iconbox-desc" align="center" style="margin-top: 30px ">
+									청년 취업 아카데미 최종 프로젝트<br>
+								</div>
+							</div>
+						</div>
 
-			</div>
+					</div>
+
+				</div>
 
 			</div>
 
@@ -312,7 +312,7 @@
 		</div>
 	</section>
 
-<section class="pfblock">
+	<section class="pfblock">
 		<!-- Portfolio end -->
 		<div class="container pv-40">
 			<div class="row">
@@ -403,7 +403,7 @@
 	</section>
 
 
-<section class="pfblock pfblock-gray">
+	<section class="pfblock pfblock-gray">
 		<!-- Portfolio end -->
 		<div class="container pv-40">
 			<div class="row">
@@ -476,21 +476,29 @@
 				<!-- sidebar end -->
 			</div>
 			<script>
-                jQuery(document).ready(function ($) {
-                    $('.owl-carousel').owlCarousel({
-                        items: 1,
-                        lazyLoad: true,
-                        loop: true,
-                        margin: 10,
+				jQuery(document).ready(function ($) {
+					$('.owl-carousel').owlCarousel({
+						items: 1,
+						lazyLoad: true,
+						loop: true,
+						margin: 10,
                         // autoplay: true,
                         // autoplayTimeout: 5000,
                         // autoplayHoverPause: true,
                     });
-                });
+				});
 			</script>
 		</div>
 	</section>
 	<!-- Contact end -->
+	<div id="myModal" class="modal modal-backdrop modal-open">
+
+		<!-- Modal Content (The Image) -->
+		<img class="modal-content" id="img01">
+
+		<!-- Modal Caption (Image Text) -->
+		<div id="caption"></div>
+	</div>
 
 	<!-- Footer start -->
 
@@ -531,6 +539,6 @@
 		<!-- Scroll to top end-->
 
 		<!-- Javascript files -->
-
+		<script src="assets/js/modal/modal.js"></script>
 	</body>
 	</html>

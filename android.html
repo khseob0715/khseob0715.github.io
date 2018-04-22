@@ -21,6 +21,9 @@
 
     <!-- Include css Owl Carousel -->
     <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/modal/mymodal.css">
+    
+
     <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
 
     <script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -304,11 +307,109 @@
                                     <li><strong>Date: </strong> <span class="text-right">17.11.10~11</span></li>
                                     <li><strong>In: </strong> <span calss="text-right">AR Travel</span></li>
                                 </ul>
-                                <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award LINK </strong><i class="fa fa-external-link"></i></a>
+                                <img id="myImg" src="assets/images/award/award_3.jpg" style="width:50%" >
                                 <br>
-                                <a href="https://github.com/khseob0715/9436pr" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal modal-backdrop modal-open">
+
+                                  <!-- Modal Content (The Image) -->
+                                  <img class="modal-content" id="img01">
+
+                                  <!-- Modal Caption (Image Text) -->
+                                  <div id="caption"></div>
+                              </div>
+
+                              <a href="https://github.com/khseob0715/9436pr" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
+                              <br>
+                              <a href="https://youtu.be/bnz5Ci0yb6Q" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
+
+                          </div>
+                      </div>
+                  </aside>
+                  <!-- sidebar end -->
+              </div>
+          </div>
+      </section>
+
+      <section class="pfblock" id="runtoyou">
+        <!-- Portfolio end -->
+        <div class="container pv-40">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="owl-carousel owl-theme">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (1).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (2).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (3).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (4).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (5).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (6).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (7).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (8).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (9).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (10).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (11).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (12).PNG" alt="">
+                        <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (13).PNG" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" style="margin-top: 50px">
+                <!-- main start -->
+                <!-- ================ -->
+                <div class="main col-lg-8">
+                    <h1 class="title">Run TO YOU</h1>
+                    <div class="separator-2"></div>
+                    <p>
+                        <h3 class="mt-4">교내 해커톤 주제 : 스마트 City 구축을 통한 사회 문제 해결</h3>
+                        <h3 class="mt-4">팀 주제 : 얼굴인식 API을 이용한 미아 찾기 SW</h3>
+                        <br>
+                        <h3 class="mt-4" style="font-size:15px">문제점 인식</h3>
+                        1. 사람들이 밀집된 장소에서 미아가 되어버린 아이를 찾는 것은 매우 힘들다.<br> 
+                        2. 대중들이 밀집한 장소에는 CCTV가 존재하지만 모든 장소에 배치되어이 있지 않다.<br>
+                        3. 미아가  된 아이를 찾기 위해서는 직접 발로 뛰거나 CCTV를 계속 주시해야 한다. <br>
+                        4. 결국은 미아가 되어버린 아이들이 실종 아동이 되어버린다. <br>
+                        이와 같은 문제를 해결하기 위해 우리 팀은 얼굴 인식 CCTV를 구현하였습니다.
+                        <br><br>
+                        <h3 class="mt-4" style="font-size:15px">시스템 흐름도</h3> 
+                        부모 혹은 관리자가 웹 사이트에 아이의 사진을 업로드 한다. 업로드된 사진은 서버를 통해 CCTV(어플)로 전달된다.<br>
+                        사진을 전달받은 CCTV(어플)은 얼굴인식 절차를 수행하고, 만약 동일인물로 추정되는 아이를 인식하였을 경우, 관리자에게 알림 서비스를 제공하고, 웹 사이트에 해당 카메라의 위치와 인식 시간을 전송하는 흐름을 갖는다.
+                        <br>
+                        <br>
+                        <h3 class="mt-4" style="font-size:15px">시스템 구현</h3>
+                        안드로이드 기기를 CCTV로 대체하여 안드로이드 스튜디오를 통해 현재 촬영하고 있는 영상을 사진으로 변환하는 절차와 아이의 얼굴과 사진을 비교하는 절차를 구현하기 위해 Microsoft Azure 플랫폼의 Face API를 활용하여 구현하였습니다. 
+                        웹사이트의 경우 Bootstrap 템플릿을 이용였으며 네이버 Maps API를 활용하였고, Node.js를 이용해 서버를 구축하였습니다. 
+                        <br><br>
+                        참고자료 : Microsoft Azure Face API https://azure.microsoft.com/ko-kr/services/cognitive-services/face/
+                        <br><br>
+                        <h3 class="mt-4" style="font-size:15px">심사평</h3>
+                        <blockquote class="margin-clear">
+                            <p style="font-size:14px">CCTV의 저화질 문제로 인해 실 생활에 적용될 가능성은 낮으나, 아이디어 측면에서는 굉장히 흥미로운 주제이며 상당한 구현 난이도를 보여준 것 같다.</p>
+                            <footer><cite title="Source Title">정보통신공학과 교수님</cite></footer>
+                        </blockquote>
+                    </div>
+                    <!-- main end -->
+
+                    <!-- sidebar start -->
+                    <!-- ================ -->
+                    <aside class="col-lg-4 col-xl-3 ml-xl-auto">
+                        <div class="sidebar">
+                            <div class="block clearfix">
+                                <h3 class="title">Project Info</h3>
+                                <div class="separator-2"></div>
+                                <ul class="list margin-clear">
+                                    <li><strong>Hackathon, Team Project</strong></li>
+                                    <li><strong>Role: </strong> <span class="text-right">Leader & Android</span></li>
+                                    <li><strong>Date: </strong> <span class="text-right">17.11.10~11</span></li>
+                                    <li><strong>In: </strong><span class="text-right">MS Azure Face API</span></li>
+                                </ul>
+                                <img id="myImg" src="assets/images/award/award_4.jpg" onclick="openModal('assets/images/award/award_4.jpg')" style="width:50%" >
                                 <br>
-                                <a href="https://youtu.be/bnz5Ci0yb6Q" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
+                                <!-- The Modal -->
+                               
+                                <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
+                                <br>
+                                <a href="https://youtu.be/2VzF8OZBReU" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
 
                             </div>
                         </div>
@@ -318,25 +419,35 @@
             </div>
         </section>
 
-        <section class="pfblock" id="runtoyou">
+        <section class="pfblock pfblock-gray" id="mydoctora">
             <!-- Portfolio end -->
             <div class="container pv-40">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="owl-carousel owl-theme">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (1).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (2).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (3).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (4).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (5).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (6).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (7).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (8).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (9).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (10).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (11).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (12).PNG" alt="">
-                            <img class="owl-lazy" data-src="assets/images/android/android_img3_ppt/slide (13).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (1).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (2).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (3).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (4).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (5).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (6).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (7).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (8).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (9).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (10).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (11).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (12).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (13).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (14).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (15).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (16).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (17).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (18).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (19).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (20).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (21).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (22).PNG" alt="">
+                            <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (23).PNG" alt="">
                         </div>
                     </div>
 
@@ -345,220 +456,126 @@
                     <!-- main start -->
                     <!-- ================ -->
                     <div class="main col-lg-8">
-                        <h1 class="title">Run TO YOU</h1>
+                        <h1 class="title">My doctor A</h1>
                         <div class="separator-2"></div>
-                        <p>
-                            <h3 class="mt-4">교내 해커톤 주제 : 스마트 City 구축을 통한 사회 문제 해결</h3>
-                            <h3 class="mt-4">팀 주제 : 얼굴인식 API을 이용한 미아 찾기 SW</h3>
-                            <br>
-                            <h3 class="mt-4" style="font-size:15px">문제점 인식</h3>
-                            1. 사람들이 밀집된 장소에서 미아가 되어버린 아이를 찾는 것은 매우 힘들다.<br> 
-                            2. 대중들이 밀집한 장소에는 CCTV가 존재하지만 모든 장소에 배치되어이 있지 않다.<br>
-                            3. 미아가  된 아이를 찾기 위해서는 직접 발로 뛰거나 CCTV를 계속 주시해야 한다. <br>
-                            4. 결국은 미아가 되어버린 아이들이 실종 아동이 되어버린다. <br>
-                            이와 같은 문제를 해결하기 위해 우리 팀은 얼굴 인식 CCTV를 구현하였습니다.
-                            <br><br>
-                            <h3 class="mt-4" style="font-size:15px">시스템 흐름도</h3> 
-                            부모 혹은 관리자가 웹 사이트에 아이의 사진을 업로드 한다. 업로드된 사진은 서버를 통해 CCTV(어플)로 전달된다.<br>
-                            사진을 전달받은 CCTV(어플)은 얼굴인식 절차를 수행하고, 만약 동일인물로 추정되는 아이를 인식하였을 경우, 관리자에게 알림 서비스를 제공하고, 웹 사이트에 해당 카메라의 위치와 인식 시간을 전송하는 흐름을 갖는다.
-                            <br>
-                            <br>
-                            <h3 class="mt-4" style="font-size:15px">시스템 구현</h3>
-                            안드로이드 기기를 CCTV로 대체하여 안드로이드 스튜디오를 통해 현재 촬영하고 있는 영상을 사진으로 변환하는 절차와 아이의 얼굴과 사진을 비교하는 절차를 구현하기 위해 Microsoft Azure 플랫폼의 Face API를 활용하여 구현하였습니다. 
-                            웹사이트의 경우 Bootstrap 템플릿을 이용였으며 네이버 Maps API를 활용하였고, Node.js를 이용해 서버를 구축하였습니다. 
-                            <br><br>
-                            참고자료 : Microsoft Azure Face API https://azure.microsoft.com/ko-kr/services/cognitive-services/face/
-                            <br><br>
-                            <h3 class="mt-4" style="font-size:15px">심사평</h3>
-                            <blockquote class="margin-clear">
-                                <p style="font-size:14px">CCTV의 저화질 문제로 인해 실 생활에 적용될 가능성은 낮으나, 아이디어 측면에서는 굉장히 흥미로운 주제이며 상당한 구현 난이도를 보여준 것 같다.</p>
-                                <footer><cite title="Source Title">정보통신공학과 교수님</cite></footer>
-                            </blockquote>
-                        </div>
-                        <!-- main end -->
-
-                        <!-- sidebar start -->
-                        <!-- ================ -->
-                        <aside class="col-lg-4 col-xl-3 ml-xl-auto">
-                            <div class="sidebar">
-                                <div class="block clearfix">
-                                    <h3 class="title">Project Info</h3>
-                                    <div class="separator-2"></div>
-                                    <ul class="list margin-clear">
-                                        <li><strong>Hackathon, Team Project</strong></li>
-                                        <li><strong>Role: </strong> <span class="text-right">Leader & Android</span></li>
-                                        <li><strong>Date: </strong> <span class="text-right">17.11.10~11</span></li>
-                                        <li><strong>In: </strong><span class="text-right">MS Azure Face API</span></li>
-                                    </ul>
-                                    <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award LINK </strong><i class="fa fa-external-link"></i></a>
-                                    <br>
-                                    <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
-                                    <br>
-                                    <a href="https://youtu.be/2VzF8OZBReU" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
-
-                                </div>
-                            </div>
-                        </aside>
-                        <!-- sidebar end -->
-                    </div>
-                </div>
-            </section>
-
-            <section class="pfblock pfblock-gray" id="mydoctora">
-                <!-- Portfolio end -->
-                <div class="container pv-40">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="owl-carousel owl-theme">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (1).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (2).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (3).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (4).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (5).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (6).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (7).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (8).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (9).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (10).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (11).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (12).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (13).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (14).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (15).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (16).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (17).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (18).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (19).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (20).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (21).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (22).PNG" alt="">
-                                <img class="owl-lazy" data-src="assets/images/android/android_img4_ppt/slide (23).PNG" alt="">
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row" style="margin-top: 50px">
-                        <!-- main start -->
-                        <!-- ================ -->
-                        <div class="main col-lg-8">
-                            <h1 class="title">My doctor A</h1>
-                            <div class="separator-2"></div>
-                            <h3 class="mt-4" style="font-size:15px"><br>1. Program Introduction</h3>
-                            <p style="padding-left: 15px; margin-bottom:0px">
-                                1.1 Overview<br>
-                            </p>
-                            <p style="padding-left:30px">
-                                • <strong>Title : 2018 Heart-Related IoT Tracking Platform Challenge</strong><br>
-                                • Date : 2018.01.08~2018.02.23(47days) <br>
-                                • <strong>Place : Qualcomm Institute, UCSD(University of California, San Diego!!)</strong><br>
-                                • My Role : Team Leader and Android Application Development<br>
-                                • Participating Universities : <strong>조선대학교</strong>, 동의대학교, 성균관대학교, 중앙대학교<br>
-                            </p>
-                            
-                            <p style="padding-left: 15px; margin-bottom:0px">
-                                1.2 Goals of Program<br>
-                            </p>
-                            <p style="padding-left:30px">
-                                • To expose the students to the Health-related IoT systems.<br>
-                                • To explore ways to collect, transmit, and save data such as Air pollution, Heart, GPS information<br>
-                                • To track and visualization the locations of moving IoT sensors and data collected from them 
-                                in real time.<br>
-
-                            </p>
-
-                            <p style="padding-left: 15px; margin-bottom:0px">
-                                1.3 App Client(Implemented using Android)<br>
-                            </p>
-                            <p style="padding-left:30px">
-                              • User management function <br>
-                              &nbsp&nbsp&nbsp– Sign-up/sign-in/sign-out/ID cancellation <br>
-                              &nbsp&nbsp&nbsp– Authentication: Hash/token/email <br>
-                              • Measure its own location using GPS module<br> 
-                              • Receive and store the following data <br>
-                              &nbsp&nbsp&nbsp– Air pollutant measurement (from UDOO board): spatial-temporary data <br>
-                              &nbsp&nbsp&nbsp– Health-related measurement (from Polar): a user-dependent data <br>
-                              &nbsp&nbsp&nbsp– GPS data<br> 
-
-                              • Display its location and the data <br>
-                              &nbsp&nbsp&nbsp– Using Google map, location, and chart APIs<br>
-                              • Transmit and receive data to/from a Web server <br>
-                              • Display air quality of its neighboring area or the area requested by a user <br>
-                              &nbsp&nbsp&nbsp– Location and air quality data from more than one UDOO boards  <br>
-                              • Display historical data by retrieving the relevant data from a Web server <br>
-                              &nbsp&nbsp&nbsp– Heart-related data / Air quality data <br>
-                              <br>
-                              ※ I didn't write down other parts.<br>
-                          </p>
-                          <h3 class="mt-4" style="font-size:15px"><br>2. System Introduction</h3>
-                          <p style="padding-left: 20px; margin-bottom:0px">
-                            <strong>Our Project Name is My Doctor A</strong><br>
-                        </p>
-                        <p style="padding-left:20px">
-                            Our project can see my Heart-related data and Air pollution data anytime, anywhere 
-                            and it can project me from the dangers by connecting this information to Doctor anytime.
-
-                        </p>
-                        <h3 class="mt-4" style="font-size:15px"><br>3. Fucntion List</h3>
+                        <h3 class="mt-4" style="font-size:15px"><br>1. Program Introduction</h3>
                         <p style="padding-left: 15px; margin-bottom:0px">
-                          1.   User Management
+                            1.1 Overview<br>
+                        </p>
+                        <p style="padding-left:30px">
+                            • <strong>Title : 2018 Heart-Related IoT Tracking Platform Challenge</strong><br>
+                            • Date : 2018.01.08~2018.02.23(47days) <br>
+                            • <strong>Place : Qualcomm Institute, UCSD(University of California, San Diego!!)</strong><br>
+                            • My Role : Team Leader and Android Application Development<br>
+                            • Participating Universities : <strong>조선대학교</strong>, 동의대학교, 성균관대학교, 중앙대학교<br>
+                        </p>
+
+                        <p style="padding-left: 15px; margin-bottom:0px">
+                            1.2 Goals of Program<br>
+                        </p>
+                        <p style="padding-left:30px">
+                            • To expose the students to the Health-related IoT systems.<br>
+                            • To explore ways to collect, transmit, and save data such as Air pollution, Heart, GPS information<br>
+                            • To track and visualization the locations of moving IoT sensors and data collected from them 
+                            in real time.<br>
+
+                        </p>
+
+                        <p style="padding-left: 15px; margin-bottom:0px">
+                            1.3 App Client(Implemented using Android)<br>
+                        </p>
+                        <p style="padding-left:30px">
+                          • User management function <br>
+                          &nbsp&nbsp&nbsp– Sign-up/sign-in/sign-out/ID cancellation <br>
+                          &nbsp&nbsp&nbsp– Authentication: Hash/token/email <br>
+                          • Measure its own location using GPS module<br> 
+                          • Receive and store the following data <br>
+                          &nbsp&nbsp&nbsp– Air pollutant measurement (from UDOO board): spatial-temporary data <br>
+                          &nbsp&nbsp&nbsp– Health-related measurement (from Polar): a user-dependent data <br>
+                          &nbsp&nbsp&nbsp– GPS data<br> 
+
+                          • Display its location and the data <br>
+                          &nbsp&nbsp&nbsp– Using Google map, location, and chart APIs<br>
+                          • Transmit and receive data to/from a Web server <br>
+                          • Display air quality of its neighboring area or the area requested by a user <br>
+                          &nbsp&nbsp&nbsp– Location and air quality data from more than one UDOO boards  <br>
+                          • Display historical data by retrieving the relevant data from a Web server <br>
+                          &nbsp&nbsp&nbsp– Heart-related data / Air quality data <br>
+                          <br>
+                          ※ I didn't write down other parts.<br>
                       </p>
-                      <p style="padding-left:30px">
-                         -   User Sign-up and Doctor Sign-up(Additional Function, NPPES API)<br>
-                         -   Sign-In/Out and ID cancellation procedure<br>
-                         -   User password change and Forgotten password update procedure<br>
-                         -   User information update procedure<br>
-                         -   Connection system between Doctor and Patient. <br>
-                         <p style="padding-left: 15px; margin-bottom:0px">
-                          2. Data Management
-                      </p>
-                      <p style="padding-left:30px">
-                         -   Real time Air Quality data transfer procedure<br>
-                         -   Real time Heart-related data transfer procedure<br>
-                         -   Historical Air Quality data transfer procedure<br>
-                         -   Historical Heart-related data transfer procedure<br>
-                     </p>
-                     <p style="padding-left: 15px; margin-bottom:0px">
-                      3. Data Display
+                      <h3 class="mt-4" style="font-size:15px"><br>2. System Introduction</h3>
+                      <p style="padding-left: 20px; margin-bottom:0px">
+                        <strong>Our Project Name is My Doctor A</strong><br>
+                    </p>
+                    <p style="padding-left:20px">
+                        Our project can see my Heart-related data and Air pollution data anytime, anywhere 
+                        and it can project me from the dangers by connecting this information to Doctor anytime.
+
+                    </p>
+                    <h3 class="mt-4" style="font-size:15px"><br>3. Fucntion List</h3>
+                    <p style="padding-left: 15px; margin-bottom:0px">
+                      1.   User Management
                   </p>
                   <p style="padding-left:30px">
-                     -   Display of my Real-time Air Quality data procedure<br>
-                     -   Display of my Real-time Heart-related data procedure<br>
-                     -   Display of my Historical Air Quality data procedure<br>
-                     -   Display of my Historical Heart-related data procedure<br>
-                     -   Display of Real-time and Historical Patient data procedure<br>
+                     -   User Sign-up and Doctor Sign-up(Additional Function, NPPES API)<br>
+                     -   Sign-In/Out and ID cancellation procedure<br>
+                     -   User password change and Forgotten password update procedure<br>
+                     -   User information update procedure<br>
+                     -   Connection system between Doctor and Patient. <br>
+                     <p style="padding-left: 15px; margin-bottom:0px">
+                      2. Data Management
+                  </p>
+                  <p style="padding-left:30px">
+                     -   Real time Air Quality data transfer procedure<br>
+                     -   Real time Heart-related data transfer procedure<br>
+                     -   Historical Air Quality data transfer procedure<br>
+                     -   Historical Heart-related data transfer procedure<br>
                  </p>
+                 <p style="padding-left: 15px; margin-bottom:0px">
+                  3. Data Display
+              </p>
+              <p style="padding-left:30px">
+                 -   Display of my Real-time Air Quality data procedure<br>
+                 -   Display of my Real-time Heart-related data procedure<br>
+                 -   Display of my Historical Air Quality data procedure<br>
+                 -   Display of my Historical Heart-related data procedure<br>
+                 -   Display of Real-time and Historical Patient data procedure<br>
              </p>
-             <h3 class="mt-4"><br>My Review</h3>
-             <blockquote class="margin-clear">
-                <p style="font-size:14px">This program was the one that we were prepared, tried, and learned using more time than the other programs which we'd ever been. Although this program was carried out for 6 short weeks, we could get a lot. The biggest lesson we learned was that we could see how a software was designed and we could do it ourselves.
-                    Our team was really at a loss when we started the project. Not all of the team members had much experience as developers and few opportunities were available to design and develop software throughout the school curriculum. The project was very difficult, but our team didn't give up.      We asked the instructors who taught us to solve the problem, and our team members showed excellent teamwork to solve each other's problems.
-                    So, we think this is the biggest reason why we have overcome the difficult challenges we have, and   I think this is the biggest reason why we received the award for outstanding team.
-                    Accordingly, we are proud of ourselves for working and finishing this project completely.   
-                </p>            
-            </blockquote>
-            Please refer to the link for more results.<br><br>
-        </div>
-        <!-- main end -->
-
-        <!-- sidebar start -->
-        <!-- ================ -->
-        <aside class="col-lg-4 col-xl-3 ml-xl-auto">
-            <div class="sidebar">
-                <div class="block clearfix">
-                    <h3 class="title" >Project Result</h3>
-                    <div class="separator-2"></div>
-
-                    <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award LINK </strong><i class="fa fa-external-link"></i></a>
-                    <br>
-                    <a href="https://github.com/khseob0715/MyDoctorA" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
-                    <br>
-                    <a href="https://youtu.be/KSXO3B9w3qI" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
-
-                </div>
-            </div>
-        </aside>
-        <!-- sidebar end -->
+         </p>
+         <h3 class="mt-4"><br>My Review</h3>
+         <blockquote class="margin-clear">
+            <p style="font-size:14px">This program was the one that we were prepared, tried, and learned using more time than the other programs which we'd ever been. Although this program was carried out for 6 short weeks, we could get a lot. The biggest lesson we learned was that we could see how a software was designed and we could do it ourselves.
+                Our team was really at a loss when we started the project. Not all of the team members had much experience as developers and few opportunities were available to design and develop software throughout the school curriculum. The project was very difficult, but our team didn't give up.      We asked the instructors who taught us to solve the problem, and our team members showed excellent teamwork to solve each other's problems.
+                So, we think this is the biggest reason why we have overcome the difficult challenges we have, and   I think this is the biggest reason why we received the award for outstanding team.
+                Accordingly, we are proud of ourselves for working and finishing this project completely.   
+            </p>            
+        </blockquote>
+        Please refer to the link for more results.<br><br>
     </div>
+    <!-- main end -->
+
+    <!-- sidebar start -->
+    <!-- ================ -->
+    <aside class="col-lg-4 col-xl-3 ml-xl-auto">
+        <div class="sidebar">
+            <div class="block clearfix">
+                <h3 class="title" >Project Result</h3><br>
+                <div class="separator-2"></div>
+
+                <img id="myImg" src="assets/images/award/award_8.jpg" onclick="openModal('assets/images/award/award_8.jpg')" style="width:80%; margin-bottom: 5px" >
+                <br>
+                <img id="myImg" src="assets/images/certificate/certificate_8.jpg" onclick="openModal('assets/images/certificate/certificate_8.jpg')" style="width:80%;" >
+                <br>
+                <a href="https://github.com/khseob0715/MyDoctorA" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
+                <br>
+                <a href="https://youtu.be/KSXO3B9w3qI" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 128, 128); text-transform: capitalize;"><strong>Youtube LINK </strong><i class="fa fa-external-link"></i></a>
+
+            </div>
+        </div>
+    </aside>
+    <!-- sidebar end -->
+</div>
 </div>
 <script>
     jQuery(document).ready(function ($) {
@@ -616,6 +633,7 @@
 
             <!-- Scroll to top -->
 
+
             <div class="scroll-up">
                 <a href="#Main"><i class="fa fa-angle-up"></i></a>
             </div>
@@ -623,6 +641,6 @@
             <!-- Scroll to top end-->
 
             <!-- Javascript files -->
-
+            <script src="assets/js/modal/modal.js"></script>
         </body>
         </html>

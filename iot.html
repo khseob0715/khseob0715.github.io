@@ -18,7 +18,7 @@
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
 
     <link href="assets/bootstrap/337/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="assets/css/modal/mymodal.css">
     <!-- Include css Owl Carousel -->
     <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
@@ -208,7 +208,8 @@
 
                             <h3 class="title">Project Result</h3>
 
-                            <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award </strong><i class="fa fa-external-link"></i></a>
+                            <img id="myImg" src="assets/images/award/award_6.jpg" onclick="openModal('assets/images/award/award_6.jpg')" style="width:50%" >
+                            <br>
                             <br>
                             <a href="https://github.com/khseob0715/Arduino-Drone" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
                             <br>
@@ -315,7 +316,9 @@
                                 <li><strong>In: </strong> <span class="text-right">Arduino Art</span></li>
                             </ul>
                             <h3 class="title">Project Result</h3>
-                            <a href="https://github.com/khseob0715/VR_ShootingGame" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(255, 214, 67); text-transform: capitalize;"><strong>Award LINK </strong><i class="fa fa-external-link"></i></a>
+                            <img id="myImg" src="assets/images/award/award_1.jpg" onclick="openModal('assets/images/award/award_1.jpg')" style="width:50%" >
+                            <br>
+                            <img id="myImg" src="assets/images/certificate/certificate_5.jpg" onclick="openModal('assets/images/certificate/certificate_5.jpg')" style="width:50%" >
                             <br>
                             <a href="https://github.com/khseob0715/ResponsibleDesign" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
                             <br>
@@ -344,53 +347,70 @@
     </section>
 
 
-    <!-- Contact end -->
+    <div id="myModal" class="modal modal-backdrop modal-open">
 
-    <!-- Footer start -->
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
 
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+  </div>
+  
+  <!-- Contact end -->
 
-                <div class="col-sm-12">
+  <!-- Footer start -->
 
-                    <ul class="social-links">
-                        <li><a href="https://github.com/khseob0715" class="wow fadeInUp"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
-                            class="fa fa-twitter"></i></a></li>
-                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
-                                class="fa fa-google-plus"></i></a></li>
-                                <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
-                                </li>
-                                <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
-                                    class="fa fa-envelope"></i></a></li>
-                                </ul>
+  <footer id="footer">
+    <div class="container">
+        <div class="row">
 
-                                <p class="heart">
-                                    <span class="fa fa-heart fa-2x animated pulse"></span>
-                                </p>
-                                <p class="copyright">
-                                    © 2018 Aiden Kim
-                                </p>
+            <div class="col-sm-12">
 
-                            </div>
+                <ul class="social-links">
+                    <li><a href="https://github.com/khseob0715" class="wow fadeInUp"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i
+                        class="fa fa-twitter"></i></a></li>
+                        <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i
+                            class="fa fa-google-plus"></i></a></li>
+                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".5s"><i
+                                class="fa fa-envelope"></i></a></li>
+                            </ul>
 
-                        </div><!-- .row -->
-                    </div><!-- .container -->
-                </footer>
+                            <p class="heart">
+                                <span class="fa fa-heart fa-2x animated pulse"></span>
+                            </p>
+                            <p class="copyright">
+                                © 2018 Aiden Kim
+                            </p>
 
-                <!-- Footer end -->
+                        </div>
 
-                <!-- Scroll to top -->
+                    </div><!-- .row -->
+                </div><!-- .container -->
+            </footer>
 
-                <div class="scroll-up">
-                    <a href="#Main"><i class="fa fa-angle-up"></i></a>
-                </div>
+            <!-- Footer end -->
 
-                <!-- Scroll to top end-->
+            <!-- Scroll to top -->
 
-                <!-- Javascript files -->
+            <div class="scroll-up">
+                <a href="#Main"><i class="fa fa-angle-up"></i></a>
+            </div>
 
-            </body>
-            </html>
+            <!-- Scroll to top end-->
+
+            <!-- Javascript files -->
+            <div id="myModal" class="modal modal-backdrop modal-open">
+
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content" id="img01">
+
+              <!-- Modal Caption (Image Text) -->
+              <div id="caption"></div>
+          </div>
+          <script src="assets/js/modal/modal.js"></script>
+      </body>
+      </html>
