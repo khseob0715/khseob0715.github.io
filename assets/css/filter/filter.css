@@ -57,6 +57,7 @@ h1 {
      border: 1px solid gray;
   padding: 12px 16px;
   width: 150px;
+  margin-bottom: 5px;
   background-color: white;
   cursor: pointer;
 }
