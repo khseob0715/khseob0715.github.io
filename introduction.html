@@ -17,6 +17,7 @@
   <!-- Custom styles CSS -->
   <link href="assets/css/style.css" rel="stylesheet" media="screen">
   <link href="assets/devicons/css/devicons.min.css" rel="stylesheet">
+  <link href="assets/css/profile.css" rel="stylesheet">
 
   <script src="assets/js/modernizr.custom.js"></script>
 
@@ -33,6 +34,7 @@
   <script src="assets/js/waypoints.min.js"></script>
   <script src="assets/js/jquery.cbpQTRotator.js"></script>
   <script src="assets/js/custom.js"></script>
+
 
 
   <link href="assets/css/filter/filter.css" rel="stylesheet">
@@ -81,71 +83,128 @@
 
   </header>
 
-  <section class="pfblock pfblock-gray">
-    <div class="pfblock-header wow fadeInUp">
-      <h2 class="pfblock-title">My Awards</h2>
-      <div class="pfblock-line"></div>
-      <div class="pfblock-subtitle">
-        I am interested in algorithms and virtual reality<br>
-        Usually developed using Android studios and Unity Tools
+  <section class="pfblock pfblock-gray" 
+  style="background-image: url('assets/images/introcover.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  height: 100%
+  ">
+  <!-- <img src="assets/images/introcover.jpg"> -->
+  <div class="pfblock-header wow fadeInUp">
+    <h2 class="pfblock-title" style="color: white; font-size:50px">HE'STORY</h2>
+    <div class="pfblock-line" style="background: white"></div>
+    <div class="pfblock-subtitle" style="color: white; font-size:24px" >
+      I am interested in virtual reality<br>
+      Usually developed using Unity and Android studios Tools
+    </div>
+  </div>
+</section>
+
+<section class="pfblock" style="padding-top: 10px">
+  <div class="container">
+    <div class="myrow">
+      <div class="column" >
+        <div class="card">
+          <p style="text-align: center; ">
+            <img src="assets/images/IAMHANSEOB.jpg" alt="Jane" style="width:90%; border-radius: 50px; margin-bottom:10px;">
+          </p>
+          <div class="containerP" style="text-align: center;">
+            <h2 style="margin-bottom: 0px; text-align: center;">김한섭</h2>
+            <p>(Hanseob Kim, Aiden)</p>
+            <p class="title">
+              1994.07.15<br>
+              khseob0715@gmai.com
+            </p>
+            <button class="btn" style="margin-bottom: 20px">Contact</button>
+          </div>
+        </div>
+      </div>
+      <div class="column" >
+        <img id="myImg" src="assets/images/award/award_6.jpg">
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="pfblock" id="award">
-    <div class="container">
-
-     <div class="pfblock-header">
-      <div id="myBtnContainer" style="alignment-baseline: central;">
-        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-        <button class="btn" onclick="filterSelection('award')">Award</button>
-        <button class="btn" onclick="filterSelection('certificate')">Certificate</button>
-        <button class="btn" onclick="filterSelection('android')">Android App</button>
-        <button class="btn" onclick="filterSelection('iot')">IoT</button>
-        <button class="btn" onclick="filterSelection('virtual')">VIRTUAL</button>
-        <button class="btn" onclick="filterSelection('others')">OTHERS</button>
+<section class="pfblock pfblock-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-sm-offset-3">
+        <p> 자기소개서를 쓰시오!!!</p>
       </div>
     </div>
-    
+  </div>
+</section>
 
-    <!-- Portfolio Gallery Grid -->
-    <div class="myrow" >
-      <div class="column award iot" >
-        <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
-          <div class="content">
-           <img src="assets/images/award/award_1.jpg" alt="Lights" style="width:100%">
 
-         </div>
+<section class="pfblock" id="award">
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="pfblock-header wow fadeInUp">
+        <h2 class="pfblock-title" >MY AWARDS</h2>
+        <div class="pfblock-line"></div>
+        <div class="pfblock-subtitle">
+         It is really nice to see my hard work pay off
        </div>
      </div>
-     <div class="column award virtual" >
-      <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
-        <div class="content">
-         <img src="assets/images/award/award_2.jpg" alt="Lights" style="width:100%">
 
-       </div>
-     </div>
    </div>
-   <div class="column award android">
+
+ </div>
+ <div class="pfblock-header">
+  <div id="myBtnContainer" style="alignment-baseline: central;">
+    <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+    <button class="btn" onclick="filterSelection('award')">Award</button>
+    <button class="btn" onclick="filterSelection('certificate')">Certificate</button>
+    <button class="btn" onclick="filterSelection('android')">Android App</button>
+    <button class="btn" onclick="filterSelection('iot')">IoT</button>
+    <button class="btn" onclick="filterSelection('virtual')">VIRTUAL</button>
+    <button class="btn" onclick="filterSelection('others')">OTHERS</button>
+  </div>
+</div>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="myrow" >
+  <div class="column award iot" >
     <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
       <div class="content">
-       <img src="assets/images/award/award_3.jpg" alt="Lights" style="width:100%">
+       <img class="card" src="assets/images/award/award_1.jpg" alt="Lights" style="width:100%">
 
      </div>
    </div>
  </div>
- <div class="column award android">
+ <div class="column award virtual" >
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/award/award_4.jpg" alt="Lights" style="width:100%">
+      <img class="card" src="assets/images/award/award_2.jpg" alt="Lights" style="width:100%">
+
+    </div>
+  </div>
+</div>
+<div class="column award android">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img class="card" src="assets/images/award/award_3.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
 </div>
-<div class="column award ">
+<div class="column award android">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/award/award_5.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/award/award_4.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
+</div>
+<div class="column award">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img class="card" src="assets/images/award/award_5.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -153,7 +212,7 @@
 <div class="column award iot">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/award/award_6.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/award/award_6.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -162,8 +221,7 @@
 <div class="column award">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/award/award_7.jpg" alt="Lights" style="width:100%">
-
+     <img class="card" src="assets/images/award/award_7.jpg" alt="Lights" style="width:100%">
    </div>
  </div>
 </div>
@@ -172,7 +230,7 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_2.jpg" alt="Lights" style="width:100%;">
+     <img class="card" src="assets/images/certificate/certificate_2.jpg" alt="Lights" style="width:100%;">
 
    </div>
  </div>
@@ -180,7 +238,7 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_3.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_3.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -188,7 +246,7 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_4.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_4.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -196,7 +254,7 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_5.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_5.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -204,7 +262,7 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_6.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_6.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -212,7 +270,7 @@
 <div class="column certificate others">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_7.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_7.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -220,7 +278,7 @@
 <div class="column award android">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/award/award_8.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/award/award_8.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -228,13 +286,13 @@
 <div class="column certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img src="assets/images/certificate/certificate_8.jpg" alt="Lights" style="width:100%">
+     <img class="card" src="assets/images/certificate/certificate_8.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
 </div>
 </div>
-</div>
+
 </section>
 
 
