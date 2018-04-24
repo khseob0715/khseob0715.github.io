@@ -25,7 +25,7 @@ h1 {
 }
 
 /* Create three equal columns that floats next to each other */
-.column {
+.columnF {
     float: left;
     width: 25%;
     display: none; /* Hide columns by default */
