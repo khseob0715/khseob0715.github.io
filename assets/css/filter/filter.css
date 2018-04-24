@@ -28,6 +28,7 @@ h1 {
 .columnF {
     float: left;
     width: 25%;
+    padding:10px;
     display: none; /* Hide columns by default */
 }
 

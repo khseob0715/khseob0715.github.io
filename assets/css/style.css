@@ -632,6 +632,19 @@ textarea.form-control {
 	padding: 0;
 }
 
+#introduction {
+  background: url(../images/introcover.jpg);
+  background-color: #222;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+      background-size: cover;
+  padding: 0;
+}
+
 .home-overlay {
     background-color: rgba(44, 62, 80, 0.3);
     background-image: url("../images/pattern.png");
