@@ -5,25 +5,34 @@ var modal = document.getElementById('myModal');
 var img = document.getElementById('myImg');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
-// Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-// span.onclick = function() { 
-// 	modal.style.display = "none";
-// }
+var modal_width = document.getElementById('myModal_width');
+var img_width = document.getElementById('myImg_width');
+var modalImg_width = document.getElementById("img02");
 
-img.onclick = function(){	
+
+
+function openModal(imgsrc) {
 	modal.style.display = "block";
-	modalImg.src = this.src;
-	captionText.innerHTML = this.alt;
-	
+	modalImg.src = imgsrc;
 }
-modalImg.onclick = function(){
+
+
+function openModal_width(imgsrc){
+	modal_width.style.display = "block";	
+	modalImg_width.src = imgsrc;
+}
+
+// img.onclick = function(){	
+// 	modal.style.display = "block";
+// 	modalImg.src = this.src;
+// 	captionText.innerHTML = this.alt;
+	
+// }
+modalImg.onclick = function(){ // modal 종료 
 	modal.style.display = "none";
 }
 
-function openModal(imgsrc) {
-  modal.style.display = "block";
-  modalImg.src = imgsrc;
+modalImg_width.onclick = function(){ // modal 종료 
+	modal_width.style.display = "none";
 }

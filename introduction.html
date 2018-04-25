@@ -34,7 +34,7 @@
     <script src="assets/js/waypoints.min.js"></script>
     <script src="assets/js/jquery.cbpQTRotator.js"></script>
     <script src="assets/js/custom.js"></script>
-
+    <link rel="stylesheet" href="assets/css/modal/mymodal.css">
 
 
     <link href="assets/css/filter/filter.css" rel="stylesheet">
@@ -98,7 +98,7 @@
       </a>
     </section>
 
-    <section class="pfblock" style="padding-top: 100px; padding-bottom: 30px" id="hestory">  
+    <section class="pfblock" style="padding-top: 120px; padding-bottom: 90px" id="hestory">  
       <div class="pfblock-header wow fadeIn">
 
         <div class="columnP" >
@@ -111,9 +111,10 @@
               <p>(Hanseob Kim, Aiden)</p>
               <p class="title">
                 1994.07.15<br>
-                khseob0715@gmai.com
+                khseob0715@gmai.com<br>
+                Dept. Computer Engineering, Chosun Univ.<br><br>
               </p>
-              <button class="btn" style="margin-bottom: 20px">Contact</button>
+
             </div>
           </div>
         </div>
@@ -122,10 +123,10 @@
 
 
 
-    <section class="pfblock" style="padding: 0px; padding-top: 90px" >
+    <section class="pfblock" style="padding: 0px; padding-top: 270px" >
       <p style="text-align: center;">
         <div class="pfblock-header wow fadeIn">
-          <img src="assets/images/tree-infography.png" style="width: 70%">
+          <img src="assets/images/tree-infography.png" style="width: 80%">
         </div>
       </p>
     </section>
@@ -163,42 +164,43 @@
 
     <!-- Portfolio Gallery Grid -->
     <div class="myrow" >
+
       <div class="columnF award iot">
         <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
           <div class="content">
-           <img class="card" src="assets/images/award/award_1.jpg" alt="Lights" style="width:100%">
-
+           <img id="myImg" class="card" onclick="openModal('assets/images/award/award_1.jpg')" src="assets/images/award/award_1.jpg"  style="width:100%">
          </div>
        </div>
      </div>
+
      <div class="columnF award virtual" >
       <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
         <div class="content">
-          <img class="card" src="assets/images/award/award_2.jpg" alt="Lights" style="width:100%">
-
+          <img id="myImg" class="card" onclick="openModal('assets/images/award/award_2.jpg')" src="assets/images/award/award_2.jpg" alt="Lights" style="width:100%">
         </div>
       </div>
     </div>
+
     <div class="columnF award android">
       <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
         <div class="content">
-         <img class="card" src="assets/images/award/award_3.jpg" alt="Lights" style="width:100%">
-
+         <img id="myImg" class="card" onclick="openModal('assets/images/award/award_3.jpg')" src="assets/images/award/award_3.jpg" alt="Lights" style="width:100%">
        </div>
      </div>
    </div>
+
    <div class="columnF award android">
     <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
       <div class="content">
-       <img class="card" src="assets/images/award/award_4.jpg" alt="Lights" style="width:100%">
-
+       <img id="myImg" class="card" onclick="openModal('assets/images/award/award_4.jpg')" src="assets/images/award/award_4.jpg" alt="Lights" style="width:100%">
      </div>
    </div>
  </div>
+
  <div class="columnF award">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/award/award_5.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_5.jpg')" src="assets/images/award/award_5.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -206,7 +208,7 @@
 <div class="columnF award iot">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/award/award_6.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_6.jpg')" src="assets/images/award/award_6.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -215,7 +217,7 @@
 <div class="columnF award">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/award/award_7.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_7.jpg')" src="assets/images/award/award_7.jpg" style="width:100%">
    </div>
  </div>
 </div>
@@ -223,7 +225,7 @@
 <div class="columnF certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_5.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/certificate/certificate_5.jpg')" src="assets/images/certificate/certificate_5.jpg"  style="width:100%">
 
    </div>
  </div>
@@ -231,15 +233,15 @@
 <div class="columnF certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_6.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/certificate/certificate_6.jpg')" src="assets/images/certificate/certificate_6.jpg" style="width:100%">
 
    </div>
  </div>
 </div>
-<div class="columnF certificate others">
+<div class="columnF others">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_7.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/certificate/certificate_7.jpg')" src="assets/images/certificate/certificate_7.jpg" style="width:100%">
 
    </div>
  </div>
@@ -247,7 +249,7 @@
 <div class="columnF award android">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/award/award_8.jpg" alt="Lights" style="width:100%">
+     <img id="myImg_width" class="card" onclick="openModal_width('assets/images/award/award_8.jpg')" src="assets/images/award/award_8.jpg"  style="width:100%">
 
    </div>
  </div>
@@ -255,7 +257,7 @@
 <div class="columnF certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_8.jpg" alt="Lights" style="width:100%">
+     <img id="myImg_width" class="card" onclick="openModal_width('assets/images/certificate/certificate_8.jpg')" src="assets/images/certificate/certificate_8.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
@@ -263,7 +265,7 @@
 <div class="columnF certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_2.jpg" alt="Lights" style="width:100%;">
+     <img class="card" id="myImg" onclick="openModal('assets/images/certificate/certificate_2.jpg')" src="assets/images/certificate/certificate_2.jpg" alt="Lights" style="width:100%;">
 
    </div>
  </div>
@@ -271,12 +273,52 @@
 <div class="columnF certificate">
   <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
     <div class="content">
-     <img class="card" src="assets/images/certificate/certificate_3.jpg" alt="Lights" style="width:100%">
+     <img id="myImg" class="card" onclick="openModal('assets/images/certificate/certificate_3.jpg')" src="assets/images/certificate/certificate_3.jpg" alt="Lights" style="width:100%">
 
    </div>
  </div>
 </div>
+<div class="columnF others">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img id="myImg" class="card" onclick="openModal('assets/images/certificate/certificate_9.jpg')" src="assets/images/certificate/certificate_9.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
 </div>
+<div class="columnF others">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_9.jpg')"" src="assets/images/award/award_9.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
+</div>
+<div class="columnF others">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_10.jpg')" src="assets/images/award/award_10.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
+</div>
+<div class="columnF others">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_11.jpg')" src="assets/images/award/award_11.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
+</div>
+<div class="columnF others">
+  <div class="pfblock-header wow fadeInUp-short" style="margin-bottom: 0px">
+    <div class="content">
+     <img id="myImg" class="card" onclick="openModal('assets/images/award/award_12.jpg')" src="assets/images/award/award_12.jpg" alt="Lights" style="width:100%">
+
+   </div>
+ </div>
+</div>
+
 </div>
 </section>
 
@@ -321,9 +363,23 @@
 
         <!-- Footer end -->
 
+        <div id="myModal" class="modal modal-backdrop modal-open">
 
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content" id="img01">
 
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
 
+        <div id="myModal_width" class="modal modal-backdrop modal-open">
+
+          <!-- Modal Content (The Image) -->
+          <img class="modal-content_width" id="img02">
+
+          <!-- Modal Caption (Image Text) -->
+          <!-- <div id="caption"></div> -->
+        </div>
         <!-- Scroll to top -->
 
         <div class="scroll-up">
@@ -332,6 +388,6 @@
 
         <!-- Scroll to top end-->
         <script src="assets/js/filter/filter.js"></script>
-
+        <script src="assets/js/modal/modal.js"></script>
       </body>
       </html>

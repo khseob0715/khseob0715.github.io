@@ -215,24 +215,24 @@
                             • 카운트다운 Handler가 수행되면서 제한 시간이 지속적으로 줄어드는 것을 ProgressBar를 이용해 표현
                         </p>
                         <p style="text-indent: -1em; padding-left:2em"> 
-                         • 클릭 이벤트로 블록 배치를 변경하고, 블록의 사방의 ±2를 탐색해 연속적으로 3개 이상의 아이콘이 존재한다면<br>
-                         해당 아이콘 속성을 Invisible로 변경하고 변경된 아이콘의 개수만큼 점수 획득
-                     </p>
-                     <p style="text-indent: -1em; padding-left:2em"> 
-                         • 아이콘 추가 Handler가 15초마다 수행되며 먼저 Custom Image Toast(아이콘 추가)를 출력하고,
-                         Invisible 속성의 블록을 난수 생성을 통해 새로운 이미지의 블록으로 변경시키고 visible 속성으로 변환하여 아이콘 블록을 표시
-                     </p>
-                     <p style="text-indent: -1em; padding-left:2em"> 
-                         • 게임 종료 Handler는 전달받은 제한시간에 도달했을때 현재 진행되는 게임 액티비티를 종료하고, 
-                         획득한 점수를 다음 액티비티로 전달하여 DB 저장 및 목표점수와 비교한 뒤 Clear 혹은 Fail을 표시 <br>
-                     </p>
-                 </p>
-                 자세한 구현에 대한 설명은 위의 PPT 혹은 Github링크를 참고해주세요.
+                           • 클릭 이벤트로 블록 배치를 변경하고, 블록의 사방의 ±2를 탐색해 연속적으로 3개 이상의 아이콘이 존재한다면<br>
+                           해당 아이콘 속성을 Invisible로 변경하고 변경된 아이콘의 개수만큼 점수 획득
+                       </p>
+                       <p style="text-indent: -1em; padding-left:2em"> 
+                           • 아이콘 추가 Handler가 15초마다 수행되며 먼저 Custom Image Toast(아이콘 추가)를 출력하고,
+                           Invisible 속성의 블록을 난수 생성을 통해 새로운 이미지의 블록으로 변경시키고 visible 속성으로 변환하여 아이콘 블록을 표시
+                       </p>
+                       <p style="text-indent: -1em; padding-left:2em"> 
+                           • 게임 종료 Handler는 전달받은 제한시간에 도달했을때 현재 진행되는 게임 액티비티를 종료하고, 
+                           획득한 점수를 다음 액티비티로 전달하여 DB 저장 및 목표점수와 비교한 뒤 Clear 혹은 Fail을 표시 <br>
+                       </p>
+                   </p>
+                   자세한 구현에 대한 설명은 위의 PPT 혹은 Github링크를 참고해주세요.
 
-             </p>
+               </p>
 
-             <h3 class="mt-4" style="font-size:15px">My Review Point</h3>
-             <blockquote class="margin-clear">
+               <h3 class="mt-4" style="font-size:15px">My Review Point</h3>
+               <blockquote class="margin-clear">
                 <p style="font-size:14px">수업 과제였지만 굉장히 즐기면서 진행한 프로젝트였습니다. 저는 이 프로젝트 시작을 4월 말부터 시작을 하였으며, 수업 때 배운 것이 아닌 제 주제에 맞는 모든 프로그래밍 구현은 5월 24일로 완료하였습니다. 이 기간 동안은 오로지 이 프로젝트에만 시간을 쓰고 몰두했습니다. 하지만 과제를 하고 있다는 느낌은 들지 않았습니다. 제가 관심을 갖고 있던 분야를 주제로 프로젝트를 처음부터 끝까지 직접 만들고 있다는 것에 매우 즐거움을 느꼈기때문입니다. 앞으로 제가 무슨 일을 하게 될 지 모르겠지만, 제가 관심 갖는 분야에서 일하고 싶습니다.
 
                 </blockquote>
@@ -343,7 +343,7 @@
                                 <li><strong>Date: </strong> <span class="text-right">17.11.10~11</span></li>
                                 <li><strong>In: </strong> <span calss="text-right">AR Travel</span></li>
                             </ul>
-                            <img id="myImg" src="assets/images/award/award_3.jpg" style="width:50%" >
+                            <img id="myImg" onclick="openModal('assets/images/award/award_3.jpg')" src="assets/images/award/award_3.jpg" style="width:50%" >
                             <br>
                             <!-- The Modal -->
                             <div id="myModal" class="modal modal-backdrop modal-open">
@@ -553,40 +553,40 @@
                   1.   User Management
               </p>
               <p style="padding-left:30px">
-               -   User Sign-up and Doctor Sign-up(Additional Function, NPPES API)<br>
-               -   Sign-In/Out and ID cancellation procedure<br>
-               -   User password change and Forgotten password update procedure<br>
-               -   User information update procedure<br>
-               -   Connection system between Doctor and Patient. <br>
-               <p style="padding-left: 15px; margin-bottom:0px">
+                 -   User Sign-up and Doctor Sign-up(Additional Function, NPPES API)<br>
+                 -   Sign-In/Out and ID cancellation procedure<br>
+                 -   User password change and Forgotten password update procedure<br>
+                 -   User information update procedure<br>
+                 -   Connection system between Doctor and Patient. <br>
+                 <p style="padding-left: 15px; margin-bottom:0px">
                   2. Data Management
               </p>
               <p style="padding-left:30px">
-               -   Real time Air Quality data transfer procedure<br>
-               -   Real time Heart-related data transfer procedure<br>
-               -   Historical Air Quality data transfer procedure<br>
-               -   Historical Heart-related data transfer procedure<br>
-           </p>
-           <p style="padding-left: 15px; margin-bottom:0px">
+                 -   Real time Air Quality data transfer procedure<br>
+                 -   Real time Heart-related data transfer procedure<br>
+                 -   Historical Air Quality data transfer procedure<br>
+                 -   Historical Heart-related data transfer procedure<br>
+             </p>
+             <p style="padding-left: 15px; margin-bottom:0px">
               3. Data Display
           </p>
           <p style="padding-left:30px">
-           -   Display of my Real-time Air Quality data procedure<br>
-           -   Display of my Real-time Heart-related data procedure<br>
-           -   Display of my Historical Air Quality data procedure<br>
-           -   Display of my Historical Heart-related data procedure<br>
-           -   Display of Real-time and Historical Patient data procedure<br>
-       </p>
-   </p>
-   <h3 class="mt-4"><br>My Review</h3>
-   <blockquote class="margin-clear">
-    <p style="font-size:14px">This program was the one that we were prepared, tried, and learned using more time than the other programs which we'd ever been. Although this program was carried out for 6 short weeks, we could get a lot. The biggest lesson we learned was that we could see how a software was designed and we could do it ourselves.
-        Our team was really at a loss when we started the project. Not all of the team members had much experience as developers and few opportunities were available to design and develop software throughout the school curriculum. The project was very difficult, but our team didn't give up.      We asked the instructors who taught us to solve the problem, and our team members showed excellent teamwork to solve each other's problems.
-        So, we think this is the biggest reason why we have overcome the difficult challenges we have, and   I think this is the biggest reason why we received the award for outstanding team.
-        Accordingly, we are proud of ourselves for working and finishing this project completely.   
-    </p>            
-</blockquote>
-Please refer to the link for more results.<br><br>
+             -   Display of my Real-time Air Quality data procedure<br>
+             -   Display of my Real-time Heart-related data procedure<br>
+             -   Display of my Historical Air Quality data procedure<br>
+             -   Display of my Historical Heart-related data procedure<br>
+             -   Display of Real-time and Historical Patient data procedure<br>
+         </p>
+     </p>
+     <h3 class="mt-4"><br>My Review</h3>
+     <blockquote class="margin-clear">
+        <p style="font-size:14px">This program was the one that we were prepared, tried, and learned using more time than the other programs which we'd ever been. Although this program was carried out for 6 short weeks, we could get a lot. The biggest lesson we learned was that we could see how a software was designed and we could do it ourselves.
+            Our team was really at a loss when we started the project. Not all of the team members had much experience as developers and few opportunities were available to design and develop software throughout the school curriculum. The project was very difficult, but our team didn't give up.      We asked the instructors who taught us to solve the problem, and our team members showed excellent teamwork to solve each other's problems.
+            So, we think this is the biggest reason why we have overcome the difficult challenges we have, and   I think this is the biggest reason why we received the award for outstanding team.
+            Accordingly, we are proud of ourselves for working and finishing this project completely.   
+        </p>            
+    </blockquote>
+    Please refer to the link for more results.<br><br>
 </div>
 <!-- main end -->
 
@@ -598,9 +598,9 @@ Please refer to the link for more results.<br><br>
             <h3 class="title" >Project Result</h3><br>
             <div class="separator-2"></div>
 
-            <img id="myImg" src="assets/images/award/award_8.jpg" onclick="openModal('assets/images/award/award_8.jpg')" style="width:80%; margin-bottom: 5px" >
+            <img id="myImg_width" src="assets/images/award/award_8.jpg" onclick="openModal_width('assets/images/award/award_8.jpg')" style="width:80%; margin-bottom: 5px" >
             <br>
-            <img id="myImg" src="assets/images/certificate/certificate_8.jpg" onclick="openModal('assets/images/certificate/certificate_8.jpg')" style="width:80%;" >
+            <img id="myImg_width" src="assets/images/certificate/certificate_8.jpg" onclick="openModal_width('assets/images/certificate/certificate_8.jpg')" style="width:80%;" >
             <br>
             <a href="https://github.com/khseob0715/MyDoctorA" class="btn btn-animated btn-default btn-lg" style="margin:5px; background:rgb(132, 225, 132); text-transform: capitalize;"><strong>GitHub LINK </strong> <i class="fa fa-external-link"></i></a>
             <br>
@@ -667,15 +667,22 @@ Please refer to the link for more results.<br><br>
             <!-- Footer end -->
 
             <!-- Scroll to top -->
+            <div id="myModal_width" class="modal modal-backdrop modal-open">
 
+              <!-- Modal Content (The Image) -->
+              <img class="modal-content_width" id="img02">
 
-            <div class="scroll-up">
-                <a href="#Main"><i class="fa fa-angle-up"></i></a>
-            </div>
+              <!-- Modal Caption (Image Text) -->
+              <!-- <div id="caption"></div> -->
+          </div>
 
-            <!-- Scroll to top end-->
+          <div class="scroll-up">
+            <a href="#Main"><i class="fa fa-angle-up"></i></a>
+        </div>
 
-            <!-- Javascript files -->
-            <script src="assets/js/modal/modal.js"></script>
-        </body>
-        </html>
+        <!-- Scroll to top end-->
+
+        <!-- Javascript files -->
+        <script src="assets/js/modal/modal.js"></script>
+    </body>
+    </html>

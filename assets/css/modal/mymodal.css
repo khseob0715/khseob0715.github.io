@@ -7,6 +7,14 @@
 
 #myImg:hover {opacity: 0.7;}
 
+#myImg_width {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg_width:hover {opacity: 0.7;}
+
 .modal-open {
   overflow: hidden; }
 
@@ -30,7 +38,19 @@
     margin: auto;
     display: block;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
+}
+
+.modal-content_width {
+    margin: auto;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+.modal-content_width:hover{
+    opacity: 0.9;
+    cursor:pointer;
 }
 
 .modal-content:hover{
@@ -53,7 +73,7 @@
     
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-#caption {
+/*#caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -63,7 +83,7 @@
     padding: 10px 0;
     height: 150px;
 }
-
+*/
 
 
 /* Add Animation - Zoom in the Modal */
@@ -72,28 +92,14 @@
     animation-duration: 0.6s;
 }
 
+.modal-content_width {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
 @keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
 }
-
-/* The Close Button */
-/*.close {
-    position: absolute;
-    top: 80px;
-    right: 400px;
-    color: rgba(255,255,255,1);
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: redx;
-    text-decoration: none;
-    cursor: pointer;
-}*/
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
