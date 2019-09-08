@@ -505,14 +505,14 @@ textarea.form-control {
 
 .pfblock-title{
     font-weight: 800;
-    color: #3C3b40;
+    color: #f0eaff;
 }
 
 .pfblock-subtitle {
 	font-family: 맑은고딕, "Times New Roman", Times, sans-serif;
 	font-style: normal;
 	font-size: 18px;
-	color: #3C3b40;	
+	color: #f0eaff;	
 }
 
 .pfblock-line {
@@ -1262,6 +1262,13 @@ figure.effect-bubba:hover p {
 	.cbp-qtrotator img {
 		width: 80px;
 	}
+}
 
+#project {
+	color:#3C3b40;	
+}
+
+#project_sub {
+	color:#3C3b40;
 }
 
